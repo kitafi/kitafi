@@ -1,0 +1,49 @@
+{
+	"title": "Greetings",
+
+	"lesson": [
+		{
+			"english": "I",
+			"swahili": "Mimi"
+		},
+		{
+			"english": "I am",
+			"swahili": "Mimi ni"
+		},
+		{
+			"type": "interactive",
+			"english": "I am __your name__.",
+			"swahili": "Mimi ni __your name__."
+		},
+		{
+			"english": "You",
+			"swahili": "Wewe"
+		},
+		{
+			"type": "question",
+			"english": "You are",
+			"swahili": "Wewe __",
+			"answer": ["ni"]
+		},
+		{
+			"type": "question",
+			"english": "You are Tom.",
+			"swahili": "__.",
+			"answer": ["Wewe ni Tom"]
+		},
+		{
+			"english": "Hello!",
+			"swahili": "Jambo!"
+		},
+		{
+			"note": "This is both a greeting and a question of state, like a casual \"Hello, how are you?\"",
+			"english": "Hello!",
+			"swahili": "Hujambo!"
+		},
+		{
+			"note": "Used to explicitly ask someone how they are doing.",
+			"english": "How are you?",
+			"swahili": "Habari gani?"
+		}
+	]
+}
