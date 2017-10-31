@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/kitafi/kitafi/issues"
   },
-  "homepage": "https://github.com/kitafi/kitafi#readme"
+  "homepage": "https://github.com/kitafi/kitafi#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "nunjucks": "^3.0.1"
+  }
 }
