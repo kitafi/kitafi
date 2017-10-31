@@ -1,0 +1,69 @@
+{
+	"title": "Introducing yourself",
+
+	"lesson": [
+		{
+			"english": "I",
+			"swahili": "Mimi"
+		},
+		{
+			"english": "I am",
+			"swahili": "Mimi ni"
+		},
+		{
+			"type": "interactive",
+			"english": "I am __your name__.",
+			"swahili": "Mimi ni __your name__."
+		},
+		{
+			"english": "You",
+			"swahili": "Wewe"
+		},
+		{
+			"type": "question",
+			"english": "You are",
+			"swahili": "Wewe __=ni__",
+			"answer": ["ni"]
+		},
+		{
+			"type": "question",
+			"english": "You are Tom.",
+			"swahili": "__=Wewe ni Tom__."
+		},
+		{
+			"english": "American",
+			"swahili": "Mmarekani"
+		},
+		{
+			"type": "question",
+			"english": "Are you American?",
+			"swahili": "Wewe ni __=Mmarekani__?"
+		},
+		{
+			"english": "yes",
+			"swahili": "ndiyo"
+		},
+		{
+			"type": "question",
+			"english": "Yes, I am American.",
+			"swahili": "__=Ndiyo, mimi ni Mmarekani__."
+		},
+		{
+			"english": "no",
+			"swahili": "hapana"
+		},
+		{
+			"english": "I am not American.",
+			"swahili": "Mimi si Mmarekani."
+		},
+		{
+			"english": "How about you?",
+			"swahili": "Na wewe je?"
+		},
+		{
+			"type": "question",
+			"english": "Are you good?",
+			"swahili": "Wewe ni __=nzuri__?"
+		}
+	]
+}

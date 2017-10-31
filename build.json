@@ -1,4 +1,14 @@
 {
+	"directory": "kitafi.github.io",
+	"template": [
+		"lesson",
+		"unit"
+	],
+
+	"unit": [
+		"basic-conversation"
+	],
+
 	"lesson": [
 		"greeting"
 	]

@@ -1,0 +1,31 @@
+{
+	"title": "Possessive Pronouns",
+
+	"lesson": [
+		{
+			"english": "name",
+			"swahili": "jina"
+		},
+		{
+			"english": "my name",
+			"swahili": "jina langu"
+		},
+		{
+			"english": "My name is Thomas.",
+			"swahili": "Jina langu ni Thomas."
+		},
+		{
+			"english": "your name",
+			"swahili": "jina lake"
+		},
+		{
+			"instruction": "Notice the word order is the reverse of English.",
+			"english": "What is it?",
+			"swahili": "Ni nani?"
+		},
+		{
+			"english": "What is your name?",
+			"swahili": "Jina lake ni nani?"
+		}
+	]
+}

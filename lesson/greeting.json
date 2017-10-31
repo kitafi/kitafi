@@ -1,44 +1,34 @@
 {
 	"title": "Greetings",
+	"unit": "basic-conversation",
 
 	"lesson": [
-		{
-			"english": "I",
-			"swahili": "Mimi"
-		},
-		{
-			"english": "I am",
-			"swahili": "Mimi ni"
-		},
-		{
-			"type": "interactive",
-			"english": "I am __your name__.",
-			"swahili": "Mimi ni __your name__."
-		},
-		{
-			"english": "You",
-			"swahili": "Wewe"
-		},
-		{
-			"type": "question",
-			"english": "You are",
-			"swahili": "Wewe __",
-			"answer": ["ni"]
-		},
-		{
-			"type": "question",
-			"english": "You are Tom.",
-			"swahili": "__.",
-			"answer": ["Wewe ni Tom"]
-		},
 		{
 			"english": "Hello!",
 			"swahili": "Jambo!"
 		},
 		{
-			"note": "This is both a greeting and a question of state, like a casual \"Hello, how are you?\"",
-			"english": "Hello!",
-			"swahili": "Hujambo!"
+			"instruction": "This is the most common Swahili greeting.",
+			"english": "Hello, how are you?",
+			"swahili": "Hujambo?"
+		},
+		{
+			"instruction": "This is the most common response to \"Hujambo?\".",
+			"english": "Hello, I am fine.",
+			"swahili": "Sijambo."
+		},
+		{
+			"english": "Hello Anna, how are you?",
+			"swahili": "Hujambo Anna?"
+		},
+		{
+			"english": "Thank you.",
+			"swahili": "Asante."
+		},
+		{
+			"instruction": "In response to the greeting \"Hujambo!\", here is one way to politely respond.",
+			"english": "I am fine, thank you.",
+			"swahili": "Sijambo, asante."
 		},
 		{
 			"note": "Used to explicitly ask someone how they are doing.",

@@ -1,0 +1,60 @@
+<html>
+<head>
+	{{ partial.head | safe }}
+	<link rel="stylesheet" href="/css/lesson.css">
+</head>
+<body>
+	{{ partial.nav | safe }}
+
+	<div id="lesson" class="carousel slide">
+		<ol class="carousel-indicators">
+			{% for slide in lesson %}
+				<li data-target="#lesson" data-slide-to="{{loop.index0}}"
+					{% if loop.index0 < 1 %}class="active"{% endif %}></li>
+			{% endfor %}
+		</ol>
+		<div class="carousel-inner">
+			{% for slide in lesson %}
+			<div class="carousel-item{% if loop.index0 < 1 %} active{% endif %}"
+				 data-type="{{ slide.type | default('learn') }}">
+				{% for language in ["english", "swahili"] %}
+					<div class="language-box {{ language }}">
+						{% for word in slide[language].split("__") %}
+							{% if loop.index0 % 2 == 0 %}
+								{% if word == "." or word == "?" or word == "!" %}
+									<span style="margin-left:-20px;">{{word}}</span>
+								{% else %}
+									<span>{{word}}</span>
+								{% endif %}
+							{% else %}
+								{% if word.indexOf('=') >= 0 %}
+									<input type="text"
+										   name="{{word.substring(0, word.indexOf('='))}}"
+										   data-expected="{{word.substring(word.lastIndexOf('=') + 1)}}"
+										   data-exact="{{ word.indexOf('==') >= 0 }}"
+										   size="3">
+								{% else %}
+									<input type="text" name="{{word}}" size="3">
+								{% endif %}
+							{% endif %}
+						{% endfor %}
+					</div>
+				{% endfor %}
+			</div>
+			{% endfor %}
+		</div>
+		<a class="carousel-control-prev" href="#lesson" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#lesson" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	{{ partial.scripts | safe }}
+	<script type="text/javascript" src="/js/lesson.js"></script>
+
+</body>
+</html>

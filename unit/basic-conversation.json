@@ -1,0 +1,12 @@
+{
+	"title": "Basic Conversation",
+	"description": "Learn how to greet people, introduce yourself, and have basic conversations.",
+
+	"lesson": [
+		"greeting",
+		"introducing-yourself",
+		"pronouns",
+		"possessive-pronouns",
+		"present-tense"
+	]
+}
