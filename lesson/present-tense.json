@@ -1,7 +1,22 @@
 {
 	"title": "Conjugation",
+	"unit": "basic-conversation",
 
 	"lesson": [
-		
+		{
+			"instruction": "Swahili verbs often start with <code>ku</code> in the <em>infinitive</em> form.",
+			"english": "to study",
+			"swahili": "kusoma"
+		},
+		{
+			"instruction": "To <em>conjugate</em> this verb in the present tense, the prefix <code>ku</code> is first dropped, and other prefixes are added to indicate <em>who</em> is performing the verb and <em>when</em> they are performing it. In this case, <code>ni</code> is the prefix for the first person (I), and <code>na</code> is the prefix for the present tense.",
+			"english": "I am studying",
+			"swahili": "ninasoma"
+		},
+		{
+			"instruction": "",
+			"english": "You are studying",
+			"swahili": "unasoma"
+		}
 	]
 }

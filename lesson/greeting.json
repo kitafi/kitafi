@@ -1,6 +1,9 @@
 {
 	"title": "Greetings",
+	"description": "Learn to say hello, goodbye, and politely greet people.",
+
 	"unit": "basic-conversation",
+	"image": "greeting.jpg",
 
 	"lesson": [
 		{

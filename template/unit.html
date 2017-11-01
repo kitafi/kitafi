@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	{{ partial.head | safe }}
+
+	<!-- <link href="css/small-business.css" rel="stylesheet"> -->
+
+</head>
+
+<body style="background:#03A9F4">
+
+	{{ partial.nav | safe }}
+
+  <div class="container">
+    <br>
+    <h1 class="text-light">{{title}}</h1>
+    <p class="lead text-light">{{description}}</p>
+
+    <div class="row">
+      {% for lessonId in lesson %}
+      <div class="col-lg-3 col-md-4 col-sm-6" style="margin-bottom:30px;">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="/image/lesson/{{ data.lesson[lessonId].image | default('default.jpg') }}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="/lesson/{{lessonId}}">{{ data.lesson[lessonId].title }}</a>
+            </h4>
+            <p class="card-text">{{ data.lesson[lessonId].description }}</p>
+          </div>
+          <div class="card-footer text-right">
+            <a href="/lesson/{{lessonId}}" class="btn btn-success">Start lesson</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <br>
+  </div>
+
+	{{ partial.footer | safe }}
+	{{ partial.scripts | safe }}
+</body>
+
+</html>

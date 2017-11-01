@@ -25,7 +25,7 @@
 						{% for word in slide[language].split("__") %}
 							{% if loop.index0 % 2 == 0 %}
 								{% if word == "." or word == "?" or word == "!" %}
-									<span style="margin-left:-1em;">{{ word | safe }}</span>
+									<span style="margin-left:-20px;">{{ word | safe }}</span>
 								{% else %}
 									<span>{{ word | safe }}</span>
 								{% endif %}
@@ -48,7 +48,11 @@
 				{% if slide.type == "question" or slide.type == "conversation" %}
 					<button class="grade">Check answer</button>
 				{% endif %}
-				<button class="next">Next</button>
+				{% if loop.index == lesson.length %}
+					<button onclick="window.location.href = '/unit/{{unit}}'">Finish</button>
+				{% else %}
+					<button class="next">Next</button>
+				{% endif %}
 				</div>
 			</div>
 			{% endfor %}
