@@ -26,6 +26,14 @@
 							{% if loop.index0 % 2 == 0 %}
 								{% if word == "." or word == "?" or word == "!" %}
 									<span style="margin-left:-20px;">{{ word | safe }}</span>
+								{% elif word.length > 0 and word.indexOf('~') > 0 %}
+									{% for w in word.split(' ') %}
+										{% if w.indexOf('~') > 0 %}
+											<span data-toggle="tooltip" data-placement="top" title="{{ w.substring(w.indexOf('~') + 1) | replace('_', ' ') }}">{{ w.substring(0, w.indexOf('~')) | safe }}</span>
+										{% else %}
+											<span>{{ w | safe }}</span>
+										{% endif %}
+									{% endfor %}
 								{% else %}
 									<span>{{ word | safe }}</span>
 								{% endif %}
@@ -47,6 +55,9 @@
 				<div class="action">
 				{% if slide.type == "question" or slide.type == "conversation" %}
 					<button class="grade">Check answer</button>
+					{% if type != 'quiz' %}
+						<button class="solution">Solution</button>
+					{% endif %}
 				{% endif %}
 				{% if loop.index == lesson.length %}
 					<button onclick="window.location.href = '/unit/{{unit}}'">Finish</button>
@@ -69,6 +80,5 @@
 
 	{{ partial.scripts | safe }}
 	<script type="text/javascript" src="/js/lesson.js"></script>
-
 </body>
 </html>

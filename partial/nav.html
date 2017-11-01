@@ -19,6 +19,10 @@
                     {{ data.unit[unit].title }}
                 </a>
                 <div class="dropdown-menu">
+                    <a href="/unit/{{unit}}" class="dropdown-item">
+                        All lessons
+                    </a>
+                    <div class="dropdown-divider"></div>
                     {% for lessonId in data.unit[unit].lesson %}
                         {% if id == lessonId %}
                         <a class="dropdown-item disabled">

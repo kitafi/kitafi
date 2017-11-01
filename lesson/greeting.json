@@ -49,6 +49,7 @@
 		{
 			"type": "question",
 			"conversation": true,
+			"instruction": "",
 			"english": "A: Hello!<br>B: Hello! How are you doing?<br>A: Good.",
 			"swahili": "A: Hujambo!<br>B: Sijambo! __=Habari gani__?<br>A: __=Nzuri__."
 		}
