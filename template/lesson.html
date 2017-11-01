@@ -17,12 +17,16 @@
 			{% for slide in lesson %}
 			<div class="carousel-item{% if loop.index0 < 1 %} active{% endif %}"
 				 data-type="{{ slide.type | default('learn') }}">
+				{% if slide.instruction %}
+				<h3 class="instruction">{{ slide.instruction | safe }}</h3>
+				{% endif %}
+
 				{% for language in ["english", "swahili"] %}
 					<div class="language-box {{ language }}">
 						{% for word in slide[language].split("__") %}
 							{% if loop.index0 % 2 == 0 %}
 								{% if word == "." or word == "?" or word == "!" %}
-									<span style="margin-left:-20px;">{{word}}</span>
+									<span style="margin-left:-1em;">{{word}}</span>
 								{% else %}
 									<span>{{word}}</span>
 								{% endif %}
@@ -40,6 +44,13 @@
 						{% endfor %}
 					</div>
 				{% endfor %}
+
+				<div class="action">
+					{{slide.type}}
+				{% if slide.type == "learn" or slide.type == null %}
+					<button class="next">Next</button>
+				{% endif %}
+				</div>
 			</div>
 			{% endfor %}
 		</div>

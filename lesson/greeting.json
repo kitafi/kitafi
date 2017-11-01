@@ -4,22 +4,24 @@
 
 	"lesson": [
 		{
+			"instruction": "In this lesson, you will learn how to greet people in Swahili.",
 			"english": "Hello!",
 			"swahili": "Jambo!"
 		},
 		{
-			"instruction": "This is the most common Swahili greeting.",
+			"instruction": "This is the most common way to greet a Swahili speaker.",
 			"english": "Hello, how are you?",
 			"swahili": "Hujambo?"
 		},
 		{
-			"instruction": "This is the most common response to \"Hujambo?\".",
+			"instruction": "This is the most common way to respond to \"Hujambo?\".",
 			"english": "Hello, I am fine.",
 			"swahili": "Sijambo."
 		},
 		{
+			"type": "question",
 			"english": "Hello Anna, how are you?",
-			"swahili": "Hujambo Anna?"
+			"swahili": "__=Hujambo__ Anna?"
 		},
 		{
 			"english": "Thank you.",
