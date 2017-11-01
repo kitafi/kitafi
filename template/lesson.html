@@ -20,15 +20,14 @@
 				{% if slide.instruction %}
 				<h3 class="instruction">{{ slide.instruction | safe }}</h3>
 				{% endif %}
-
 				{% for language in ["english", "swahili"] %}
-					<div class="language-box {{ language }}">
+					<div class="language-box {{ language }} {% if slide.conversation %}conversation{% endif %}">
 						{% for word in slide[language].split("__") %}
 							{% if loop.index0 % 2 == 0 %}
 								{% if word == "." or word == "?" or word == "!" %}
-									<span style="margin-left:-1em;">{{word}}</span>
+									<span style="margin-left:-1em;">{{ word | safe }}</span>
 								{% else %}
-									<span>{{word}}</span>
+									<span>{{ word | safe }}</span>
 								{% endif %}
 							{% else %}
 								{% if word.indexOf('=') >= 0 %}
@@ -46,10 +45,10 @@
 				{% endfor %}
 
 				<div class="action">
-					{{slide.type}}
-				{% if slide.type == "learn" or slide.type == null %}
-					<button class="next">Next</button>
+				{% if slide.type == "question" or slide.type == "conversation" %}
+					<button class="grade">Check answer</button>
 				{% endif %}
+				<button class="next">Next</button>
 				</div>
 			</div>
 			{% endfor %}

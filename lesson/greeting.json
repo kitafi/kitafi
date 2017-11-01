@@ -9,16 +9,17 @@
 			"swahili": "Jambo!"
 		},
 		{
-			"instruction": "This is the most common way to greet a Swahili speaker.",
+			"instruction": "<code>Hujambo</code> is a more common way to greet a Swahili speaker, and can be used to ask how someone is doing. It is similar to English greetings like \"Hey, how's it going?\"",
 			"english": "Hello, how are you?",
 			"swahili": "Hujambo?"
 		},
 		{
-			"instruction": "This is the most common way to respond to \"Hujambo?\".",
+			"instruction": "This is the most common way to respond to <code>Hujambo</code>.",
 			"english": "Hello, I am fine.",
 			"swahili": "Sijambo."
 		},
 		{
+			"instruction": "How would you say hello to your friend Anna?",
 			"type": "question",
 			"english": "Hello Anna, how are you?",
 			"swahili": "__=Hujambo__ Anna?"
@@ -28,14 +29,25 @@
 			"swahili": "Asante."
 		},
 		{
-			"instruction": "In response to the greeting \"Hujambo!\", here is one way to politely respond.",
+			"type": "question",
+			"instruction": "After responding to the greeting \"Hujambo!\", you can add in a polite \"thank you\".",
 			"english": "I am fine, thank you.",
-			"swahili": "Sijambo, asante."
+			"swahili": "Sijambo, __=asante__."
 		},
 		{
-			"note": "Used to explicitly ask someone how they are doing.",
+			"instruction": "Use <code>habari gani</code> to explicitly ask someone how they are doing.",
 			"english": "How are you?",
 			"swahili": "Habari gani?"
+		},
+		{
+			"english": "good",
+			"swahili": "nzuri"
+		},
+		{
+			"type": "question",
+			"conversation": true,
+			"english": "A: Hello!<br>B: Hello! How are you doing?<br>A: Good.",
+			"swahili": "A: Hujambo!<br>B: Sijambo! __=Habari gani__?<br>A: __=Nzuri__."
 		}
 	]
 }
