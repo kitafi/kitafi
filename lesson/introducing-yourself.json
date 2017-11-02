@@ -4,32 +4,38 @@
 
 	"lesson": [
 		{
+			"instruction": "This is how you would refer to yourself.",
 			"english": "I",
 			"swahili": "Mimi"
 		},
 		{
+			"instruction": "When describing yourself in the present tense, use <code>ni</code>.",
 			"english": "I am",
 			"swahili": "Mimi ni"
 		},
 		{
 			"type": "interactive",
+			"instruction": "Type your name into the blank. This is one way to tell someone your name.",
 			"english": "I am __your name__.",
 			"swahili": "Mimi ni __your name__."
 		},
 		{
+			"instruction": "This is how you would refer to a single person you are talking to.",
 			"english": "You",
 			"swahili": "Wewe"
 		},
 		{
 			"type": "question",
+			"instruction": "How do you think you would say this?",
 			"english": "You are",
 			"swahili": "Wewe __=ni__",
 			"answer": ["ni"]
 		},
 		{
 			"type": "question",
-			"english": "You are Tom.",
-			"swahili": "__=Wewe ni Tom__."
+			"instruction": "The Swahili word for \"nice\" is the same as the word for \"good\".",
+			"english": "You are nice.",
+			"swahili": "__=Wewe ni nzuri__."
 		},
 		{
 			"english": "American",

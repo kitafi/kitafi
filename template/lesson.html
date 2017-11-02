@@ -43,9 +43,10 @@
 										   name="{{word.substring(0, word.indexOf('='))}}"
 										   data-expected="{{word.substring(word.lastIndexOf('=') + 1)}}"
 										   data-exact="{{ word.indexOf('==') >= 0 }}"
-										   size="3">
+										   size="3"
+											 autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
 								{% else %}
-									<input type="text" name="{{word}}" size="3">
+									<input type="text" name="{{word}}" size="3" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
 								{% endif %}
 							{% endif %}
 						{% endfor %}
@@ -60,7 +61,20 @@
 					{% endif %}
 				{% endif %}
 				{% if loop.index == lesson.length %}
-					<button onclick="window.location.href = '/unit/{{unit}}'">Finish</button>
+					{% if data.unit[unit].lesson.indexOf(id) + 1 < data.unit[unit].lesson.length %}
+						<a href="/lesson/{{ data.unit[unit].lesson[data.unit[unit].lesson.indexOf(id) + 1] }}">
+							Next lesson
+						</a>
+					{% elif build.unit.indexOf(unit) + 1 < build.unit.length %}
+						<a href="/unit/{{ build.unit[build.unit.indexOf(unit) + 1] }}">
+							Next unit
+						</a>
+					{% else %}
+						<a href="https://github.com/kitafi/kitafi">
+							Start contributing
+						</a>
+					{% endif %}
+					<a href="/unit/{{unit}}">Back to unit</a>
 				{% else %}
 					<button class="next">Next</button>
 				{% endif %}
