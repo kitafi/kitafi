@@ -28,8 +28,7 @@
 			"type": "question",
 			"instruction": "How do you think you would say this?",
 			"english": "You are",
-			"swahili": "Wewe __=ni__",
-			"answer": ["ni"]
+			"swahili": "Wewe __=ni__"
 		},
 		{
 			"type": "question",
@@ -52,25 +51,54 @@
 		},
 		{
 			"type": "question",
+			"instruction": "How would you tell someone you are an American?",
 			"english": "Yes, I am American.",
 			"swahili": "__=Ndiyo, mimi ni Mmarekani__."
 		},
 		{
+			"instruction": "This is the formal way to say \"no\". You may also hear a Swahili speaker say <code>la</code> instead of <code>hapana</code>.",
 			"english": "no",
 			"swahili": "hapana"
 		},
 		{
+			"instruction": "The word <code>si</code> is the opposite of <code>ni</code> - you often hear this sound when talking about something in the negative.",
 			"english": "I am not American.",
-			"swahili": "Mimi si Mmarekani."
+			"swahili": "Mimi si~am_not Mmarekani."
+		},
+		{
+			"english": "Tanzanian",
+			"swahili": "Mtanzania"
+		},
+		{
+			"type": "question",
+			"instruction": "Tell someone that you are not from Tanzania.",
+			"english": "No, I am not Tanzanian.",
+			"swahili": "__=Hapana, mimi si Mtanzania__."
+		},
+		{
+			"instruction": "This is how you would refer to any African person.",
+			"english": "African",
+			"swahili": "Mwafrika"
+		},
+		{
+			"type": "question",
+			"instruction": "The word <code>na</code> means \"and\".",
+			"english": "I am American and you are Kenyan.",
+			"swahili": "__=Mimi ni Mmarekani__ na~and __=wewe ni Mkenya__."
 		},
 		{
 			"english": "How about you?",
 			"swahili": "Na wewe je?"
 		},
 		{
+			"english": "I am good, how about you?",
+			"swahili": "__=Mimi ni nzuri, na wewe je__?"
+		},
+		{
 			"type": "question",
-			"english": "Are you good?",
-			"swahili": "Wewe ni __=nzuri__?"
+			"instruction": "The word <code>lakini</code> is a common conjunction between contrasting statements.",
+			"english": "I am not Tanzanian, but I am African.",
+			"swahili": "__=Mimi si Mtanzania__, lakini~but __=mimi ni Mwafrika__."
 		}
 	]
 }

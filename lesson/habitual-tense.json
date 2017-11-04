@@ -1,0 +1,23 @@
+{
+	"title": "Habitual Tense",
+	"unit": "basic-conversation",
+
+	"lesson": [
+		{
+			"instruction": "To indicate a verb is habitually performed, add the prefix <code>hu</code>. For example, the verb <code>kulala</code> is conjugated as <code>hulala</code>.",
+			"english": "I sleep every day.",
+			"swahili": "Mimi hulala kila~every siku~day ."
+		},
+		{
+			"instruction": "The habitual tense prefix is conjugated the same way for the first, second, and third person.",
+			"english": "He/she talks a lot.",
+			"swahili": "Yeye huzungumza~kuzungumza_is_\"to_talk\" sana."
+		},
+		{
+			"type": "question",
+			"instruction": "Translate the following sentence using the verb <code>kucheza</code>, which means \"to play\".",
+			"english": "The children play in the evening.",
+			"swahili": "Watoto~the_children __=hucheza__ jioni~in_the_evening ."
+		}
+	]
+}

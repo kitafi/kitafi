@@ -49,9 +49,20 @@
 		{
 			"type": "question",
 			"conversation": true,
-			"instruction": "",
-			"english": "A: Hello!<br>B: Hello! How are you doing?<br>A: Good.",
-			"swahili": "A: Hujambo!<br>B: Sijambo! __=Habari gani__?<br>A: __=Nzuri__."
+			"instruction": "Translate the following conversation between Ali and Halima.",
+			"english": "<strong>Ali</strong>: Hello!<br><strong>Halima</strong>: Hello! How are you doing?<br><strong>Ali</strong>: Good.",
+			"swahili": "<strong>Ali</strong>: Hujambo!<br><strong>Halima</strong>: Sijambo! __=Habari gani__?<br><strong>Ali</strong>: __=Nzuri__."
+		},
+		{
+			"instruction": "<code>Shikamoo</code> is a respectful greeting to elders and leaders. Children always use this greeting toward adults, and adults use this greeting toward much older people.",
+			"english": "Hello (sir/madam)",
+			"swahili": "shikamoo"
+		},
+		{
+			"instruction": "The respectful answer to <code>shikamoo</code> is <code>marahaba</code>. In this conversation, Juma is a child greeting the adult Yusufu.",
+			"conversation": true,
+			"english": "<strong>Juma</strong>: Hello Yusufu sir.<br><strong>Yusufu</strong>: Hello.",
+			"swahili": "<strong>Juma</strong>: Shikamoo Baba~father Yusufu.<br><strong>Yusufu</strong>: Marahaba."
 		}
 	]
 }

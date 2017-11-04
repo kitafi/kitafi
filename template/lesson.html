@@ -28,12 +28,18 @@
 									<span style="margin-left:-20px;">{{ word | safe }}</span>
 								{% elif word.length > 0 and word.indexOf('~') > 0 %}
 									{% for w in word.split(' ') %}
-										{% if w.indexOf('~') > 0 %}
+										{% if (w | string).length > 0 and (w | string).indexOf('~') > 0 %}
 											<span data-toggle="tooltip" data-placement="top" title="{{ w.substring(w.indexOf('~') + 1) | replace('_', ' ') }}">{{ w.substring(0, w.indexOf('~')) | safe }}</span>
 										{% else %}
-											<span>{{ w | safe }}</span>
+											{% if w == "." or w == "?" or w == "!" %}
+												<span style="margin-left:-20px;">{{ w | safe }}</span>
+											{% else %}
+												<span>{{ w | safe }}</span>
+											{% endif %}
 										{% endif %}
 									{% endfor %}
+								{% elif word and word.substring(0, 1) != ' ' %}
+									<span style="margin-left:-20px;">{{ word | safe }}</span>
 								{% else %}
 									<span>{{ word | safe }}</span>
 								{% endif %}
