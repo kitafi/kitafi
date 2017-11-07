@@ -14,7 +14,7 @@
 			"swahili": "ninasoma"
 		},
 		{
-			"instruction": "",
+			"instruction": "test",
 			"english": "You are studying",
 			"swahili": "unasoma~test foo~bar_baz_quux"
 		}

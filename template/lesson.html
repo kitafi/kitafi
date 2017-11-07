@@ -21,9 +21,14 @@
 				{% if slide.instruction %}
 				<h3 class="instruction">{{ slide.instruction | safe }}</h3>
 				{% endif %}
+				{% if slide.conversation or slide.split %}
+				<div class="row conversation">
+					<div class="col-md-5 offset-md-1 col-sm-10 offset-sm-1">
+				{% endif %}
+
 				{% for language in ["english", "swahili"] %}
 				{% if slide[language] and (slide[language] | string).length > 0 %}
-					<div class="language-box {{ language }} {% if slide.conversation or slide.split %}conversation{% endif %}">
+					<div class="language-box {{ language }}">
 						{% for word in slide[language].split("__") %}
 							{% if loop.index0 % 2 == 0 %}
 								{% if word == "." or word == "?" or word == "!" %}
@@ -62,7 +67,17 @@
 						{% endfor %}
 					</div>
 				{% endif %}
+				{% if loop.index0 == 0 and (slide.conversation or slide.split) %}
+					</div>
+					<div class="col-md-5 offset-md-0 col-sm-10 offset-sm-1">
+				{% endif %}
+
 				{% endfor %}
+
+				{% if slide.conversation or slide.split %}
+					</div>
+				</div>
+				{% endif %}
 
 				<div class="action">
 				{% if slide.type == "question" %}

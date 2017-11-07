@@ -61,8 +61,8 @@
 		{
 			"instruction": "The respectful answer to <code>shikamoo</code> is <code>marahaba</code>. In this conversation, Juma is a child greeting the adult Yusufu.",
 			"conversation": true,
-			"english": "<strong>Juma</strong>: Hello Yusufu sir.<br><strong>Yusufu</strong>: Hello.",
-			"swahili": "<strong>Juma</strong>: Shikamoo Baba~father Yusufu.<br><strong>Yusufu</strong>: Marahaba."
+			"english": "<strong>Juma</strong>: Hello Yusufu sir.<br><strong>Yusufu</strong>: Hello. How are you?<br><strong>Juma</strong>: Very good.",
+			"swahili": "<strong>Juma</strong>: __=Shikamoo__ Baba~father Yusufu.<br><strong>Yusufu</strong>: Marahaba. __=Habari gani__?<br><strong>Juma</strong>: __=Nzuri__ sana~very ."
 		},
 		{
 			"instruction": "Here is how you would say goodbye.",

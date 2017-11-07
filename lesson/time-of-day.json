@@ -1,0 +1,44 @@
+{
+	"title": "Time of the Day",
+	"description": "Describe the general and exact time of the day.",
+	"unit": "conjugation",
+
+	"lesson": [
+		{
+			"english": "good morning",
+			"swahili": "habari za asubuhi"
+		},
+		{
+			"english": "good afternoon",
+			"swahili": "habari za mchana"
+		},
+		{
+			"english": "How are father and mother?",
+			"swahili": "Baba na mama hawajambo?"
+		},
+		{
+			"english": "good evening",
+			"swahili": "habari za jioni"
+		},
+		{
+			"instruction": "The word <code>juma</code> means \"day\", so <code>Jumamosi</code> literally means \"first day\" and <code>Jumapili</code> is \"second day\".",
+			"english": "Saturday and Sunday",
+			"swahili": "Jumamosi na Jumapili"
+		},
+		{
+			"instruction": "How do you think you would say \"Monday\"? Recall the Swahili word for three is <code>tatu</code>.",
+			"english": "Monday",
+			"swahili": "__=Jumatatu__"
+		},
+		{
+			"instruction": "How about \"Tuesday\" and \"Wednesday\"?",
+			"english": "Tuesday and Wednesday",
+			"swahili": "Juma__=nne__ na Juma__=tano__"
+		},
+		{
+			"instruction": "The Swahili language was largely influenced by Arabic and was originally written in Arabic script. The words for \"Thursday\" and \"Friday\" are borrowed from Arabic - <code>Alhamisi</code> means \"five\" in Arabic, and <code>Ijumaa</code> refers to the Muslim day of prayer at the mosque.",
+			"english": "Thursday and Friday",
+			"swahili": "Alhamisi na~and Ijumaa"
+		}
+	]
+}
