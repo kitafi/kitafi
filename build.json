@@ -6,7 +6,9 @@
 	],
 
 	"unit": [
-		"basic-conversation"
+		"basic-conversation",
+		"conjugation",
+		"food-and-drink"
 	],
 
 	"lesson": [

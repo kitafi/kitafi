@@ -1,0 +1,57 @@
+{
+    "title": "Numbers",
+    "unit": "basic-conversation",
+
+    "lesson": [
+        {
+            "instruction": "Let's get started with 0, 1, 2, 3.",
+            "english": "zero one two three",
+            "swahili": "sifuri moja mbili tatu"
+        },
+        {
+            "instruction": "In Swahili, numbers may be conjugated based on the noun class of whatever they are quantifying. For example, <code>mwanafunzi</code> (student) in noun class 1 adds the <code>m</code> prefix, and <code>wanafunzi</code> (students pl.) in noun class 2 adds the <code>wa</code> prefix.<br><br>Notice <code>wili</code> is sometimes used instead of <code>mbili</code> when conjugated.",
+            "english": "one student, two students",
+            "swahili": "mwanafunzi mmoja~m_+_moja , wanafunzi wawili~wa_+_wili"
+        },
+        {
+            "instruction": "How would you conjugate the number three?",
+            "english": "three students",
+            "swahili": "wanafunzi __=wa__tatu"
+        },
+        {
+            "instruction": "Here are the next three numbers.",
+            "english": "four five six",
+            "swahili": "nne tano sita"
+        },
+        {
+            "instruction": "When quantifying verbs in the first and second noun class (M-WA), the prefix only is attached to four (<code>nne</code>) and five(<code>tano</code>), not six (<code>sita</code>).",
+            "english": "four women, five men, six children",
+            "swahili": "wanawake~women wanne, wanaume~men watano, watoto~children sita"
+        },
+        {
+            "instruction": "Here are the last single digit numbers.",
+            "english": "seven eight nine",
+            "swahili": "saba nane tisa"
+        },
+        {
+            "instruction": "For the M-WA noun class, a prefix is only attached to eight (<code>nane</code>).",
+            "english": "seven interpreters, eight farmers, nine cooks",
+            "swahili": "wafasiri~interpreters saba, wakulima~farmers wanane~wa_+_nane, wapishi~cooks tisa"
+        },
+        {
+            "instruction": "Now lets construct.",
+            "english": "four five six",
+            "swahili": "nne tano sita"
+        },
+        {
+            "instruction": "For the third and fourth noun class (M-MI), the prefix is .",
+            "english": "four five six",
+            "swahili": "nne tano sita"
+        },
+        {
+            "instruction": "Now lets construct.",
+            "english": "four five six",
+            "swahili": "nne tano sita"
+        }
+    ]
+}

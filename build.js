@@ -59,6 +59,19 @@ function render(templateName, fileName) {
 				// Store the partials object to the json data
 				json.partial = jsonPartial;
 
+				// Set the slide type if not set already
+				if (json.lesson)
+					json.lesson.forEach(function(slide) {
+						if (slide.type == null) {
+							if ((slide.english && slide.english.indexOf('__=') >= 0) ||
+								(slide.swahili && slide.swahili.indexOf('__=') >= 0)) {
+									slide.type = 'question';
+							}
+							else
+								slide.type = 'learn';
+						}
+					})
+
 				// Render the template contents with the json data
 				let rendered = nunjucks.renderString(template[templateName], json);
 

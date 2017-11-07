@@ -1,12 +1,13 @@
 <html>
 <head>
+	<title>{{title}}</title>
 	{{ partial.head | safe }}
 	<link rel="stylesheet" href="/css/lesson.css">
 </head>
 <body>
 	{{ partial.nav | safe }}
-
-	<div id="lesson" class="carousel slide">
+	{% if lesson %}
+	<div id="lesson" class="carousel slide" data-id="{{id}}">
 		<ol class="carousel-indicators">
 			{% for slide in lesson %}
 				<li data-target="#lesson" data-slide-to="{{loop.index0}}"
@@ -21,7 +22,8 @@
 				<h3 class="instruction">{{ slide.instruction | safe }}</h3>
 				{% endif %}
 				{% for language in ["english", "swahili"] %}
-					<div class="language-box {{ language }} {% if slide.conversation %}conversation{% endif %}">
+				{% if slide[language] and (slide[language] | string).length > 0 %}
+					<div class="language-box {{ language }} {% if slide.conversation or slide.split %}conversation{% endif %}">
 						{% for word in slide[language].split("__") %}
 							{% if loop.index0 % 2 == 0 %}
 								{% if word == "." or word == "?" or word == "!" %}
@@ -31,14 +33,16 @@
 										{% if (w | string).length > 0 and (w | string).indexOf('~') > 0 %}
 											<span data-toggle="tooltip" data-placement="top" title="{{ w.substring(w.indexOf('~') + 1) | replace('_', ' ') }}">{{ w.substring(0, w.indexOf('~')) | safe }}</span>
 										{% else %}
-											{% if w == "." or w == "?" or w == "!" %}
+											{% if w == "." or w == "," or w == "?" or w == "!" %}
 												<span style="margin-left:-20px;">{{ w | safe }}</span>
 											{% else %}
 												<span>{{ w | safe }}</span>
 											{% endif %}
 										{% endif %}
 									{% endfor %}
-								{% elif word and word.substring(0, 1) != ' ' %}
+								{% elif word.length > 0 and word.substring(0, 1) == '<' %}
+									<span>{{ word | safe }}</span>
+								{% elif word.length > 0 and word.substring(0, 1) != ' ' %}
 									<span style="margin-left:-20px;">{{ word | safe }}</span>
 								{% else %}
 									<span>{{ word | safe }}</span>
@@ -57,16 +61,20 @@
 							{% endif %}
 						{% endfor %}
 					</div>
+				{% endif %}
 				{% endfor %}
 
 				<div class="action">
-				{% if slide.type == "question" or slide.type == "conversation" %}
+				{% if slide.type == "question" %}
 					<button class="grade">Check answer</button>
 					{% if type != 'quiz' %}
 						<button class="solution">Solution</button>
 					{% endif %}
 				{% endif %}
 				{% if loop.index == lesson.length %}
+					<button class="start-over">
+						Start over
+					</button>
 					{% if data.unit[unit].lesson.indexOf(id) + 1 < data.unit[unit].lesson.length %}
 						<a href="/lesson/{{ data.unit[unit].lesson[data.unit[unit].lesson.indexOf(id) + 1] }}">
 							Next lesson
@@ -97,6 +105,7 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
+	{% endif %}
 
 	{{ partial.scripts | safe }}
 	<script type="text/javascript" src="/js/lesson.js"></script>

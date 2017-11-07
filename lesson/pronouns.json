@@ -2,5 +2,66 @@
 	"title": "Pronouns",
 	"unit": "basic-conversation",
 
-	"lesson": []
+	"lesson": [
+		{
+			"instruction": "Remember how to say <code>me</code> and <code>you</code>?",
+			"english": "me and you",
+			"swahili": "mimi~I na~and wewe~you"
+		},
+		{
+			"instruction": "Here is how you would refer to someone in the third person. Notice that Swahili pronouns don't change based on gender.",
+			"english": "him/her",
+			"swahili": "yeye"
+		},
+		{
+			"english": "He is American.",
+			"swahili": "__=Yeye ni Mmarekani__."
+		},
+		{
+			"english": "we",
+			"swahili": "Sisi"
+		},
+		{
+			"english": "We are African.",
+			"swahili": "__=Sisi ni Mwafrika__."
+		},
+		{
+			"english": "you all <span class=\"muted\">(plural)</span>",
+			"swahili": "nyinyi"
+		},
+		{
+			"english": "Hello, how are you all?",
+			"swahili": "Hamjambo, habari gani?"
+		},
+		{
+			"english": "Hello, we are good.",
+			"swahili": "Hatujambo, sisi~we ni nzuri~good."
+		},
+		{
+			"english": "they/them",
+			"swahili": "wao"
+		},
+		{
+			"english": "Are they okay?",
+			"swahili": "__=Wao ni nzuri?__"
+		},
+		{
+			"english": "",
+			"swahili": ""
+		},
+		{
+			"type": "interactive",
+			"english": "I am called __name__.",
+			"swahili": "Mimi ninaitwa~ni_+_-naitwa __name__."
+		},
+		{
+			"type": "interactive",
+			"english": "You are called __name__.",
+			"swahili": "Wewe unaitwa __name__."
+		},
+		{
+			"english": "He is bad, but they all are good.",
+			"swahili": "__=Yeye__ ni~is mbaya~bad , lakini~but __=wao__ ni~are __=nzuri__."
+		}
+	]
 }

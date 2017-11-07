@@ -9,6 +9,24 @@
             <li class="nav-item{% if type == 'home' %} active{% endif %}">
                 <a class="nav-link" href="/">Home</a>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="unitsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Units
+                </a>
+                <div class="dropdown-menu">
+                    {% for unitId in build.unit %}
+                        {% if type == 'unit' and unitId == id %}
+                        <a class="dropdown-item disabled">
+                            {{ title }}
+                        </a>
+                        {% else %}
+                        <a class="dropdown-item" href="/unit/{{unitId}}">
+                            {{ data.unit[unitId].title }}
+                        </a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </li>
             {% if type == 'unit' %}
             <li class="nav-item active">
                 <a class="nav-link">{{title}}</a>

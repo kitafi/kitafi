@@ -4,6 +4,7 @@
 
 	"lesson": [
 		{
+			"instruction": "Here is the noun for ",
 			"english": "name",
 			"swahili": "jina"
 		},
@@ -12,12 +13,18 @@
 			"swahili": "jina langu"
 		},
 		{
-			"english": "My name is Thomas.",
-			"swahili": "Jina langu ni Thomas."
+			"type": "interactive",
+			"english": "My name is __name__.",
+			"swahili": "Jina langu ni __name__."
 		},
 		{
 			"english": "your name",
-			"swahili": "jina lake"
+			"swahili": "jina lako"
+		},
+		{
+			"type": "interactive",
+			"english": "Your name is __name__.",
+			"swahili": "Jina lako ni __name__."
 		},
 		{
 			"instruction": "Notice the word order is the reverse of English.",
@@ -26,7 +33,12 @@
 		},
 		{
 			"english": "What is your name?",
-			"swahili": "Jina lake ni nani?"
+			"swahili": "__=Jina lako__ ni nani?"
+		},
+		{
+			"instruction": "Swahili does not have different pronouns for gender",
+			"english": "his/her name",
+			"swahili": "jina lake"
 		}
 	]
 }

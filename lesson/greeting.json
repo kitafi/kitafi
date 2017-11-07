@@ -55,7 +55,7 @@
 		},
 		{
 			"instruction": "<code>Shikamoo</code> is a respectful greeting to elders and leaders. Children always use this greeting toward adults, and adults use this greeting toward much older people.",
-			"english": "Hello (sir/madam)",
+			"english": "Hello <span class=\"muted\">sir/madam</span>",
 			"swahili": "shikamoo"
 		},
 		{
@@ -63,6 +63,11 @@
 			"conversation": true,
 			"english": "<strong>Juma</strong>: Hello Yusufu sir.<br><strong>Yusufu</strong>: Hello.",
 			"swahili": "<strong>Juma</strong>: Shikamoo Baba~father Yusufu.<br><strong>Yusufu</strong>: Marahaba."
+		},
+		{
+			"instruction": "Here is how you would say goodbye.",
+			"english": "goodbye",
+			"swahili": "kwaheri"
 		}
 	]
 }
