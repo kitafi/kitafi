@@ -9,7 +9,7 @@
 			"swahili": "mimi~I na~and wewe~you"
 		},
 		{
-			"instruction": "Here is how you would refer to someone in the third person. Notice that Swahili pronouns don't change based on gender.",
+			"instruction": "Notice that Swahili pronouns don't change based on gender.",
 			"english": "him/her",
 			"swahili": "yeye"
 		},
@@ -19,7 +19,7 @@
 		},
 		{
 			"english": "we",
-			"swahili": "Sisi"
+			"swahili": "sisi"
 		},
 		{
 			"english": "We are African.",

@@ -22,7 +22,11 @@
       {% for lessonId in lesson %}
       <div class="col-lg-3 col-md-4 col-sm-6" style="margin-bottom:30px;">
         <div class="card h-100" style="background-color:#039BE5">
-          <a href="#"><img class="card-img-top" src="/image/lesson/{{ data.lesson[lessonId].image | default('default.jpg') }}" alt=""></a>
+					{% if data.lesson[lessonId].image %}
+          	<a href="/lesson/{{lessonId}}">
+							<img class="card-img-top" src="/image/lesson/{{ data.lesson[lessonId].image | default('default.jpg') }}" alt="">
+						</a>
+					{% endif %}
           <div class="card-body">
             <h4 class="card-title">
               <a class="text-white" href="/lesson/{{lessonId}}">{{ data.lesson[lessonId].title }}</a>

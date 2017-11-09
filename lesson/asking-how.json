@@ -1,0 +1,38 @@
+{
+    "title": "Asking How",
+    "description": "Ask how to say things and convert conjugated sentences into questions.",
+
+    "unit": "asking-questions",
+
+    "lesson": [
+        {
+            "english": "to say",
+            "swahili": "kusema"
+        },
+        {
+            "english": "I say",
+            "swahili": "__=ninasema__"
+        },
+        {
+            "type": "interactive",
+            "instruction": "By adding <code>je</code> at the end of a conjugated verb, we are converting it to a question on <em>how</em> the particular action is performed.",
+            "english": "How do I say __word__?",
+            "swahili": "Ninasemaje~ninasema_+_je __word__?"
+        },
+        {
+            "instruction": "Conjugate the verb <code>kuenda</code> (to go) in the past tense.",
+            "english": "you went",
+            "swahili": "__=ulienda__"
+        },
+        {
+            "instruction": "How do you think you would ask \"how did you go\"?",
+            "english": "How did you go?",
+            "swahili": "__=Uliendaje__?"
+        },
+        {
+            "instruction": "How do you think you would ask \"how <em>will</em> you go\"? Remember to conjugate <code>kuenda</code> (to go) in the future tense.",
+            "english": "How will you go to the store?",
+            "swahili": "__=Utaendaje__ dukani~to_the_store ?"
+        }
+    ]
+}

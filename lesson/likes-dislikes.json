@@ -3,6 +3,13 @@
 	"unit": "basic-conversation",
 
 	"lesson": [
-
+		{
+			"english": "I like",
+			"swahili": "ninapenda"
+		},
+		{
+			"english": "You like",
+			"swahili": "unapenda"
+		}
 	]
 }

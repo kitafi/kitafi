@@ -1,0 +1,60 @@
+{
+    "title": "Asking Where",
+    "unit": "asking-questions",
+
+    "lesson": [
+        {
+            "english": "Where do you come from?",
+            "swahili": "Wewe~you unatoka~kutoka_=_to_come_from wapi~where ?"
+        },
+        {
+            "instruction": "Try entering some country names - certain countries have Swahili names that are phonetically similar to their English names.",
+            "type": "interactive",
+            "english": "country of __country__",
+            "swahili": "nchi~country ya __country__",
+
+            "translate": {
+                "country": {
+                    "America": "Marekani",
+                    "Belgium": "Ubelgiji",
+                    "Cambodia": "Kamboja",
+                    "Canada": "Kanada",
+                    "Central African Republic": "Jamhuri ya Afrika ya Kati",
+                    "C(*)": "K$1",
+                    "France": "Ufaransa",
+                    "Germany": "Ujerumani",
+                    "Greece": "Ugiriki",
+                    "India": "Uhindi",
+                    "Iran": "Uajemi",
+                    "Ireland": "Eire",
+                    "Italy": "Italia",
+                    "Japan": "Japani",
+                    "Mozambique": "Msumbiji",
+                    "Netherlands": "Uholanzi",
+                    "Russia": "Urusi",
+                    "Singapore": "Singapuri",
+                    "Solomon Islands": "Visiwa vya Solomon",
+                    "South Africa": "Afrika Kusini",
+                    "South Korea": "Korea Kusini",
+                    "Swaziland": "Uswazi",
+                    "Switzerland": "Uswisi",
+                    "Thailand": "Uthai",
+                    "Turkey": "Uturuki",
+                    "UK": "Uingereza",
+                    "United Kingdom": "Uingereza"
+                }
+            }
+        },
+        {
+            "instruction": "How would you conjugate <code>kutoka</code> (to come from) in the first person?",
+            "english": "I come from America.",
+            "swahili": "Mimi __=ninatoka__ nchi ya Marekani."
+        },
+        {
+            "instruction": "The verb <code>kukaa</code> means \"to live\" or \"to reside\". The verb <code>kuishi</code> means \"to live\", \"to exist\", or \"to remain\". Both can be used when asking someone where they currently live.",
+            "english": "Where do you live?",
+            "swahili": "Unakaa/Unaishi wapi~where?"
+
+        }
+    ]
+}
