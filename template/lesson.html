@@ -60,6 +60,12 @@
 										   data-exact="{{ word.indexOf('==') >= 0 }}"
 										   size="3"
 											 autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+								{% elif word.indexOf('/') > 0 %}
+									<select>
+										{% for option in word.split("/") %}
+										<option value="{{loop.index0}}">{{option}}</option>
+										{% endfor %}
+									</select>
 								{% else %}
 									<input type="text" name="{{word}}" size="3" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
 								{% endif %}

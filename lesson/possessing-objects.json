@@ -4,8 +4,50 @@
 
 	"lesson": [
 		{
-			"english": "my name",
-			"swahili": "https://www2.ku.edu/~kiswahili/pdfs/lesson_11.pdf"
+			"type": "interactive",
+			"instruction": "The word <code>nina</code> is used to indicate \"I have\". In a practical sentence, <code>Mimi</code> could be omitted, as <code>nina</code> implies that you are talking about yourself.<br><br>Practice the five vocabulary words below for common classroom objects.",
+			"english": "I have __a pen/a paper/a book/a ruler/a notebook__.",
+			"swahili": "Mimi~I nina~I_have __kalamu/karatasi/kitabu/rula/daftari__."
+		},
+		{
+			"instruction": "The word <code>una</code> means \"you have\".",
+			"english": "You have a book.",
+			"swahili": "Wewe una~you_have __=kitabu__."
+		},
+		{
+			"instruction": "The word <code>ana</code> means \"he/she has\".",
+			"english": "My friend has a notebook.",
+			"swahili": "__=Rafiki yangu__ ana~he/she_has __=daftari__."
+		},
+		{
+			"instruction": "The word <code>tuna</code> means \"we have\".",
+			"english": "We have a paper.",
+			"swahili": "Sisi __=tuna karatasi__."
+		},
+		{
+			"instruction": "The word <code>mna</code> means \"you all have\".",
+			"english": "Do you all have a ruler?",
+			"swahili": "Nyinyi __=mna rula__?"
+		},
+		{
+			"instruction": "The word <code>wana</code> means \"they have\". Notice the plural form for \"pens\" (<code>kalamu</code>) is the same as the singular form.",
+			"english": "Do they have pens?",
+			"swahili": "Wao __=wana__ kalamu?"
+		},
+		{
+			"instruction": "Some words change in the plural, like <code>kitabu</code> (book). When referring to more than one book, use <code>vitabu</code>.",
+			"english": "They have the books.",
+			"swahili": "__=Sisi tuna__ vitabu."
+		},
+		{
+			"instruction": "Certain words are pluralized differently based on their <strong>noun class</strong>, a concept that will be covered in the next unit. For now, you will have to practice to remember the plural of <code>daftari</code> is <code>madaftari</code>.",
+			"english": "You have notebooks.",
+			"swahili": "Wewe __=una__ madaftari~notebooks ."
+		},
+		{
+			"instruction": "How would you say this? Use <code>mimi</code> and <code>wewe</code> in your answer.",
+			"english": "I have the pen and you have the paper.",
+			"swahili": "__=Mimi nina kalamu na wewe una karatasi__."
 		}
 	]
 }

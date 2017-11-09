@@ -1,0 +1,53 @@
+{
+    "title": "Classroom Vocabulary",
+    "unit": "teaching",
+
+    "lesson": [
+        {
+            "instruction": "This word is in the M-WA noun class (1 and 2).",
+            "english": "teacher, teachers",
+            "swahili": "mwalimu, walimu"
+        },
+        {
+            "instruction": "This word is also in the M-WA noun class.",
+            "english": "student, students",
+            "swahili": "mwanafunzi, wanafunzi"
+        },
+        {
+            "instruction": "How would you politely greet a classroom of students?",
+            "english": "Hello students, how are you?",
+            "swahili": "__=Hamjambo__ wanafunzi?"
+        },
+        {
+            "instruction": "How would the students politely respond to you?",
+            "english": "Hello professor, we are good.",
+            "swahili": "__=Hatujambo mwalimu__."
+        },
+        {
+            "type": "interactive",
+            "instruction": "You might start a class by telling students what they will be learning today.",
+            "english": "Today we will learn __mathematics/reading/writing/English/Swahili__.",
+            "swahili": "Leo~Today tutasoma~we_will_learn __hisabati/kusoma/kuandika/Kiingereza/Kiswahili__."
+        },
+        {
+            "instruction": "How would a student tell you they have a question?",
+            "english": "I have a question.",
+            "swahili": "__=Nina__ swali."
+        },
+        {
+            "instruction": "How would you ask a particular student if they have a question?",
+            "english": "Do you have a question?",
+            "swahili": "__=Una swali__?"
+        },
+        {
+            "instruction": "How would you ask all the students if they have a question?",
+            "english": "Do you have a question?",
+            "swahili": "__=Mna swali__?"
+        },
+        {
+            "instruction": "The verbs for open and close are quite similar.",
+            "english": "to open and to close",
+            "swahili": "kifungua na kifunga"
+        }
+    ]
+}
