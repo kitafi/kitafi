@@ -4,30 +4,35 @@
 
     "lesson": [
         {
-            "split": true,
+            "type": "interactive",
             "instruction": "The verb \"to have\" is constructed by adding a prefix to <code>na</code>.",
-            "english": "I have",
-            "swahili": "nina"
+            "english": "__I have/You have/He has/She has/We have/You all have/They have__ a friend.",
+            "swahili": "__Nina/Una/Ana/Ana/Tuna/Mna/Wana__ rafiki~friend ."
         },
         {
-            "instruction": "",
-            "english": "",
-            "swahili": ""
+            "instruction": "When using \"to have\" in the past tense, the root <code>na</code> becomes <code>likuwa na</code>.",
+            "english": "I had a car.",
+            "swahili": "Nilikuwa na gari."
         },
         {
-            "instruction": "",
-            "english": "",
-            "swahili": ""
+            "instruction": "How would you conjugate the phrase \"you had\"?",
+            "english": "You had a dog.",
+            "swahili": "__=Ulikuwa na__ mbwa~dog ."
         },
         {
-            "instruction": "",
-            "english": "",
-            "swahili": ""
+            "instruction": "How would you conjugate the phrase \"you all had\"?",
+            "english": "You all had a cat.",
+            "swahili": "__=Mlikuwa na__ paka~cat ."
         },
         {
-            "instruction": "",
-            "english": "",
-            "swahili": ""
+            "instruction": "When using \"to have\" in the future tense, the root <code>na</code> becomes <code>takuwa na</code>.",
+            "english": "We will have work.",
+            "swahili": "Tutakuwa na kazi~work ."
+        },
+        {
+            "instruction": "Translate the following sentence. Use the pronouns <code>yeye</code> and <code>wao</code>, and remember <code>lakini</code> is the word for \"but\".",
+            "english": "She has a cat, but they will have a dog.",
+            "swahili": "__=Yeye ana paka, lakini wao watakuwa na mbwa__ ."
         },
         {
             "instruction": "",

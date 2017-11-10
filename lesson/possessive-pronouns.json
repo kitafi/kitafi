@@ -1,5 +1,6 @@
 {
 	"title": "Possessive Pronouns",
+	"description": "Use words that demonstrate ownership and use them to form questions to ask other people.",
 	"unit": "basic-conversation",
 
 	"lesson": [
@@ -39,6 +40,10 @@
 			"instruction": "Swahili does not have different pronouns for gender",
 			"english": "his/her name",
 			"swahili": "jina lake"
+		},
+		{
+			"english": "What is his name?",
+			"swahili": "__=Jina lake ni nani__?"
 		}
 	]
 }
