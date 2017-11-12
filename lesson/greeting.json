@@ -1,73 +1,83 @@
 {
-	"title": "Greetings",
-	"description": "Learn to say hello, goodbye, and politely greet people.",
-
-	"unit": "basic-conversation",
-	"image": "greeting.jpg",
-
-	"lesson": [
-		{
-			"instruction": "In this lesson, you will learn how to greet people in Swahili.",
-			"english": "Hello!",
-			"swahili": "Jambo!"
-		},
-		{
-			"instruction": "<code>Hujambo</code> is a more common way to greet a Swahili speaker, and can be used to ask how someone is doing. It is similar to English greetings like \"Hey, how's it going?\"",
-			"english": "Hello, how are you?",
-			"swahili": "Hujambo?"
-		},
-		{
-			"instruction": "This is the most common way to respond to <code>Hujambo</code>.",
-			"english": "Hello, I am fine.",
-			"swahili": "Sijambo."
-		},
-		{
-			"instruction": "How would you say hello to your friend Anna?",
-			"type": "question",
-			"english": "Hello Anna, how are you?",
-			"swahili": "__=Hujambo__ Anna?"
-		},
-		{
-			"english": "Thank you.",
-			"swahili": "Asante."
-		},
-		{
-			"type": "question",
-			"instruction": "After responding to the greeting \"Hujambo!\", you can add in a polite \"thank you\".",
-			"english": "I am fine, thank you.",
-			"swahili": "Sijambo, __=asante__."
-		},
-		{
-			"instruction": "Use <code>habari gani</code> to explicitly ask someone how they are doing.",
-			"english": "How are you?",
-			"swahili": "Habari gani?"
-		},
-		{
-			"english": "good",
-			"swahili": "nzuri"
-		},
-		{
-			"type": "question",
-			"conversation": true,
-			"instruction": "Translate the following conversation between Ali and Halima.",
-			"english": "<strong>Ali</strong>: Hello!<br><strong>Halima</strong>: Hello! How are you doing?<br><strong>Ali</strong>: Good.",
-			"swahili": "<strong>Ali</strong>: Hujambo!<br><strong>Halima</strong>: Sijambo! __=Habari gani__?<br><strong>Ali</strong>: __=Nzuri__."
-		},
-		{
-			"instruction": "<code>Shikamoo</code> is a respectful greeting to elders and leaders. Children always use this greeting toward adults, and adults use this greeting toward much older people.",
-			"english": "Hello <span class=\"muted\">sir/madam</span>",
-			"swahili": "shikamoo"
-		},
-		{
-			"instruction": "The respectful answer to <code>shikamoo</code> is <code>marahaba</code>. In this conversation, Juma is a child greeting the adult Yusufu.",
-			"conversation": true,
-			"english": "<strong>Juma</strong>: Hello Yusufu sir.<br><strong>Yusufu</strong>: Hello. How are you?<br><strong>Juma</strong>: Very good.",
-			"swahili": "<strong>Juma</strong>: __=Shikamoo__ Baba~father Yusufu.<br><strong>Yusufu</strong>: Marahaba. __=Habari gani__?<br><strong>Juma</strong>: __=Nzuri__ sana~very ."
-		},
-		{
-			"instruction": "Here is how you would say goodbye.",
-			"english": "goodbye",
-			"swahili": "kwaheri"
-		}
-	]
+    "title": "Greetings",
+    "description": "Learn to say hello, goodbye, and politely greet people.",
+    "unit": "basic-conversation",
+    "image": "greeting.jpg",
+    "lesson": [
+        {
+            "instruction": "In this lesson, you will learn how to greet people in Swahili.",
+            "english": "Hello!",
+            "swahili": "Jambo!",
+            "uuid": "318e7c2d-7aa0-407c-9463-655efcb56d82"
+        },
+        {
+            "instruction": "<code>Hujambo</code> is a more common way to greet a Swahili speaker, and can be used to ask how someone is doing. It is similar to English greetings like \"Hey, how's it going?\"",
+            "english": "Hello, how are you?",
+            "swahili": "Hujambo?",
+            "uuid": "be766657-8a05-4691-81da-a33d9c1d853a"
+        },
+        {
+            "instruction": "This is the most common way to respond to <code>Hujambo</code>.",
+            "english": "Hello, I am fine.",
+            "swahili": "Sijambo.",
+            "uuid": "032b4c51-163e-46f2-8c9b-5a7776d0d103"
+        },
+        {
+            "instruction": "How would you say hello to your friend Anna?",
+            "type": "question",
+            "english": "Hello Anna, how are you?",
+            "swahili": "__=Hujambo__ Anna?",
+            "uuid": "d53ce89a-4b39-488d-91d6-41f1430a826c"
+        },
+        {
+            "english": "Thank you.",
+            "swahili": "Asante.",
+            "uuid": "25535c2a-6046-4e40-8b31-71bba8a4624a"
+        },
+        {
+            "type": "question",
+            "instruction": "After responding to the greeting \"Hujambo!\", you can add in a polite \"thank you\".",
+            "english": "I am fine, thank you.",
+            "swahili": "Sijambo, __=asante__.",
+            "uuid": "d6617b5e-1ad5-463c-a47f-4379a6add580"
+        },
+        {
+            "instruction": "Use <code>habari gani</code> to explicitly ask someone how they are doing.",
+            "english": "How are you?",
+            "swahili": "Habari gani?",
+            "uuid": "2e6737ee-4fb2-4f70-8d7c-04e11229a58c"
+        },
+        {
+            "english": "good",
+            "swahili": "nzuri",
+            "uuid": "a53308aa-d7e6-4197-b205-2b8133f87bfe"
+        },
+        {
+            "type": "question",
+            "conversation": true,
+            "instruction": "Translate the following conversation between Ali and Halima.",
+            "english": "<strong>Ali</strong>: Hello!<br><strong>Halima</strong>: Hello! How are you doing?<br><strong>Ali</strong>: Good.",
+            "swahili": "<strong>Ali</strong>: Hujambo!<br><strong>Halima</strong>: Sijambo! __=Habari gani__?<br><strong>Ali</strong>: __=Nzuri__.",
+            "uuid": "9e17121d-c30e-4d7c-81f3-5f3544f25070"
+        },
+        {
+            "instruction": "<code>Shikamoo</code> is a respectful greeting to elders and leaders. Children always use this greeting toward adults, and adults use this greeting toward much older people.",
+            "english": "Hello <span class=\"muted\">sir/madam</span>",
+            "swahili": "shikamoo",
+            "uuid": "e1d374a4-37e7-4e7b-b0e9-f275fbc3bbef"
+        },
+        {
+            "instruction": "The respectful answer to <code>shikamoo</code> is <code>marahaba</code>. In this conversation, Juma is a child greeting the adult Yusufu.",
+            "conversation": true,
+            "english": "<strong>Juma</strong>: Hello Yusufu sir.<br><strong>Yusufu</strong>: Hello. How are you?<br><strong>Juma</strong>: Very good.",
+            "swahili": "<strong>Juma</strong>: __=Shikamoo__ Baba~father Yusufu.<br><strong>Yusufu</strong>: Marahaba. __=Habari gani__?<br><strong>Juma</strong>: __=Nzuri__ sana~very .",
+            "uuid": "932119c9-7cc6-47d3-a7e1-2456a2c4848e"
+        },
+        {
+            "instruction": "Here is how you would say goodbye.",
+            "english": "goodbye",
+            "swahili": "kwaheri",
+            "uuid": "2cdfdc31-08f4-49dc-8411-3fcc82b8868d"
+        }
+    ]
 }

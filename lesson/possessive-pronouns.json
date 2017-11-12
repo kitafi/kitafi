@@ -1,51 +1,58 @@
 {
-	"title": "Possessive Pronouns",
-	"description": "Use words that demonstrate ownership and use them to form questions to ask other people.",
-	"image": "drought.jpg",
-	
-	"unit": "basic-conversation",
-
-	"lesson": [
-		{
-			"instruction": "Here is the noun for ",
-			"english": "name",
-			"swahili": "jina"
-		},
-		{
-			"english": "my name",
-			"swahili": "jina langu"
-		},
-		{
-			"type": "interactive",
-			"english": "My name is __name__.",
-			"swahili": "Jina langu ni __name__."
-		},
-		{
-			"english": "your name",
-			"swahili": "jina lako"
-		},
-		{
-			"type": "interactive",
-			"english": "Your name is __name__.",
-			"swahili": "Jina lako ni __name__."
-		},
-		{
-			"instruction": "Notice the word order is the reverse of English.",
-			"english": "What is it?",
-			"swahili": "Ni nani?"
-		},
-		{
-			"english": "What is your name?",
-			"swahili": "__=Jina lako__ ni nani?"
-		},
-		{
-			"instruction": "Swahili does not have different pronouns for gender",
-			"english": "his/her name",
-			"swahili": "jina lake"
-		},
-		{
-			"english": "What is his name?",
-			"swahili": "__=Jina lake ni nani__?"
-		}
-	]
+    "title": "Possessive Pronouns",
+    "description": "Use words that demonstrate ownership and use them to form questions to ask other people.",
+    "image": "drought.jpg",
+    "unit": "basic-conversation",
+    "lesson": [
+        {
+            "instruction": "Here is the noun for ",
+            "english": "name",
+            "swahili": "jina",
+            "uuid": "a66720a2-19b0-4820-8afb-2a0f1b107350"
+        },
+        {
+            "english": "my name",
+            "swahili": "jina langu",
+            "uuid": "b2a00eb1-fa04-44d7-abb1-de8a6e699695"
+        },
+        {
+            "type": "interactive",
+            "english": "My name is __name__.",
+            "swahili": "Jina langu ni __name__.",
+            "uuid": "ccc95e30-6354-432d-ac16-e28ba53bfd67"
+        },
+        {
+            "english": "your name",
+            "swahili": "jina lako",
+            "uuid": "954dfeff-82e5-4dc6-a929-b4cfd412bf22"
+        },
+        {
+            "type": "interactive",
+            "english": "Your name is __name__.",
+            "swahili": "Jina lako ni __name__.",
+            "uuid": "b87f6b4c-5711-4108-8834-ff055362062a"
+        },
+        {
+            "instruction": "Notice the word order is the reverse of English.",
+            "english": "What is it?",
+            "swahili": "Ni nani?",
+            "uuid": "003a2da2-8be0-4c6b-9e1e-2a878b142ed1"
+        },
+        {
+            "english": "What is your name?",
+            "swahili": "__=Jina lako__ ni nani?",
+            "uuid": "9e3d6de8-161f-4624-abe4-d215c7ffcee4"
+        },
+        {
+            "instruction": "Swahili does not have different pronouns for gender",
+            "english": "his/her name",
+            "swahili": "jina lake",
+            "uuid": "36d136b8-d839-4591-847f-e0dc3762a2f0"
+        },
+        {
+            "english": "What is his name?",
+            "swahili": "__=Jina lake ni nani__?",
+            "uuid": "0319f3e3-fcf2-42ea-8858-f3abeea97caa"
+        }
+    ]
 }

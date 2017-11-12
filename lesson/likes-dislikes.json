@@ -1,15 +1,16 @@
 {
-	"title": "Likes and dislikes",
-	"unit": "basic-conversation",
-
-	"lesson": [
-		{
-			"english": "I like",
-			"swahili": "ninapenda"
-		},
-		{
-			"english": "You like",
-			"swahili": "unapenda"
-		}
-	]
+    "title": "Likes and dislikes",
+    "unit": "basic-conversation",
+    "lesson": [
+        {
+            "english": "I like",
+            "swahili": "ninapenda",
+            "uuid": "ad38af8a-caf7-48f2-a22a-2e9262d745ed"
+        },
+        {
+            "english": "You like",
+            "swahili": "unapenda",
+            "uuid": "ff30bb25-cf36-4920-b74e-cbeecd8e2eac"
+        }
+    ]
 }

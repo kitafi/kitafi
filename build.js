@@ -1,6 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 var nunjucks = require('nunjucks');
+var uuid = require('uuid/v4');
 var chalk = require('chalk');
 
 // Store template strings
@@ -24,6 +25,8 @@ function success(message, label) {
 
 // Renders a given file with the given template
 function render(templateName, fileName) {
+	if (fileName == '.DS_Store') return;
+
 	templateName = path.basename(templateName, '.html');
 
 	// Read the file
@@ -37,6 +40,29 @@ function render(templateName, fileName) {
 			try {
 				// Get the JSON and pass it as the argument to nunjucks for rendering
 				let json = JSON.parse(content);
+
+				// Check for UUIDs and immediately write back the formatted JSON
+				// with any new UUIDs inserted
+				if (templateName == 'lesson' && Array.isArray(json.lesson)) {
+					let missingUUID = false;
+
+					json.lesson.forEach(function(lesson) {
+						if (! lesson.uuid) {
+							lesson.uuid = uuid();
+							missingUUID = true;
+						}
+					});
+
+					if (missingUUID) {
+						console.log('missing uuid for ' + fileName);
+						fs.writeFile(path.join(__dirname, templateName, fileName),
+							JSON.stringify(json, null, 4), function(writeError) {
+								if (writeError)
+									error('Could not write updated JSON.');
+							});
+					}
+				}
+
 				json.type = templateName;
 				json.id = path.basename(fileName, '.json');
 
@@ -184,6 +210,8 @@ build.template.forEach(function(templateName) {
 	data[templateName] = {};
 	// Iterate over all files
 	fs.readdirSync(path.join(__dirname, templateName)).forEach(function(fileName) {
+		if (fileName == '.DS_Store') return;
+		
 		try {
 			// Read the JSON data
 			data[templateName][path.basename(fileName, '.json')] =

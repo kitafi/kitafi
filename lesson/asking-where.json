@@ -1,18 +1,17 @@
 {
     "title": "Asking Where",
     "unit": "asking-questions",
-
     "lesson": [
         {
             "english": "Where do you come from?",
-            "swahili": "Wewe~you unatoka~kutoka_=_to_come_from wapi~where ?"
+            "swahili": "Wewe~you unatoka~kutoka_=_to_come_from wapi~where ?",
+            "uuid": "f8d88d83-6df0-4e32-89f3-00e88d29afa7"
         },
         {
             "instruction": "Try entering some country names - certain countries have Swahili names that are phonetically similar to their English names.",
             "type": "interactive",
             "english": "country of __country__",
             "swahili": "nchi~country ya __country__",
-
             "translate": {
                 "country": {
                     "America": "Marekani",
@@ -43,18 +42,20 @@
                     "UK": "Uingereza",
                     "United Kingdom": "Uingereza"
                 }
-            }
+            },
+            "uuid": "f9355b9f-b1da-4d82-bdd8-c95f66c80d03"
         },
         {
             "instruction": "How would you conjugate <code>kutoka</code> (to come from) in the first person?",
             "english": "I come from America.",
-            "swahili": "Mimi __=ninatoka__ nchi ya Marekani."
+            "swahili": "Mimi __=ninatoka__ nchi ya Marekani.",
+            "uuid": "62ab3647-4c10-43b5-bda4-a30fae54aac2"
         },
         {
             "instruction": "The verb <code>kukaa</code> means \"to live\" or \"to reside\". The verb <code>kuishi</code> means \"to live\", \"to exist\", or \"to remain\". Both can be used when asking someone where they currently live.",
             "english": "Where do you live?",
-            "swahili": "Unakaa/Unaishi wapi~where?"
-
+            "swahili": "Unakaa/Unaishi wapi~where?",
+            "uuid": "b9a6f0cb-e2cd-439f-a50c-757eb7008f36"
         }
     ]
 }

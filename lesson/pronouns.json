@@ -1,70 +1,82 @@
 {
-	"title": "Pronouns",
-	"description": "Refer to yourself and groups of people, and learn common Swahili questions/statements.",
-	"image": "introducing-yourself.jpg",
-
-	"unit": "basic-conversation",
-
-	"lesson": [
-		{
-			"instruction": "Remember how to say <code>me</code> and <code>you</code>?",
-			"english": "me and you",
-			"swahili": "mimi~I na~and wewe~you"
-		},
-		{
-			"instruction": "Notice that Swahili pronouns don't change based on gender.",
-			"english": "him/her",
-			"swahili": "yeye"
-		},
-		{
-			"english": "He is American.",
-			"swahili": "__=Yeye ni Mmarekani__."
-		},
-		{
-			"english": "we",
-			"swahili": "sisi"
-		},
-		{
-			"english": "We are African.",
-			"swahili": "__=Sisi ni Mwafrika__."
-		},
-		{
-			"english": "you all <span class=\"muted\">(plural)</span>",
-			"swahili": "nyinyi"
-		},
-		{
-			"english": "Hello, how are you all?",
-			"swahili": "Hamjambo, habari gani?"
-		},
-		{
-			"english": "Hello, we are good.",
-			"swahili": "Hatujambo, sisi~we ni nzuri~good."
-		},
-		{
-			"english": "they/them",
-			"swahili": "wao"
-		},
-		{
-			"english": "Are they okay?",
-			"swahili": "__=Wao ni nzuri?__"
-		},
-		{
-			"english": "",
-			"swahili": ""
-		},
-		{
-			"type": "interactive",
-			"english": "I am called __name__.",
-			"swahili": "Mimi ninaitwa~ni_+_-naitwa __name__."
-		},
-		{
-			"type": "interactive",
-			"english": "You are called __name__.",
-			"swahili": "Wewe unaitwa __name__."
-		},
-		{
-			"english": "He is bad, but they all are good.",
-			"swahili": "__=Yeye__ ni~is mbaya~bad , lakini~but __=wao__ ni~are __=nzuri__."
-		}
-	]
+    "title": "Pronouns",
+    "description": "Refer to yourself and groups of people, and learn common Swahili questions/statements.",
+    "image": "introducing-yourself.jpg",
+    "unit": "basic-conversation",
+    "lesson": [
+        {
+            "instruction": "Remember how to say <code>me</code> and <code>you</code>?",
+            "english": "me and you",
+            "swahili": "mimi~I na~and wewe~you",
+            "uuid": "23b5e47d-76b2-4d49-9860-3853f2411c76"
+        },
+        {
+            "instruction": "Notice that Swahili pronouns don't change based on gender.",
+            "english": "him/her",
+            "swahili": "yeye",
+            "uuid": "e52ad9b6-15cb-441d-bc8d-4f44905478f8"
+        },
+        {
+            "english": "He is American.",
+            "swahili": "__=Yeye ni Mmarekani__.",
+            "uuid": "01bfe3e4-68ec-404d-848c-713c1a3e01f7"
+        },
+        {
+            "english": "we",
+            "swahili": "sisi",
+            "uuid": "18d9f10a-c1da-4fe1-99d9-ccfdc7e26438"
+        },
+        {
+            "english": "We are African.",
+            "swahili": "__=Sisi ni Mwafrika__.",
+            "uuid": "35e170bd-0e27-4da3-8b1e-81dc0bbf49a4"
+        },
+        {
+            "english": "you all <span class=\"muted\">(plural)</span>",
+            "swahili": "nyinyi",
+            "uuid": "77a4678f-4128-4e8d-ae94-425b9e8bdd51"
+        },
+        {
+            "english": "Hello, how are you all?",
+            "swahili": "Hamjambo, habari gani?",
+            "uuid": "e82ee002-5a74-4e64-867f-b905e4c2667a"
+        },
+        {
+            "english": "Hello, we are good.",
+            "swahili": "Hatujambo, sisi~we ni nzuri~good.",
+            "uuid": "663f8c1e-2cdf-4a92-9f10-b9d52955da2a"
+        },
+        {
+            "english": "they/them",
+            "swahili": "wao",
+            "uuid": "f46fcf93-4b35-4c95-932d-dd0d49174ff6"
+        },
+        {
+            "english": "Are they okay?",
+            "swahili": "__=Wao ni nzuri?__",
+            "uuid": "1af79465-fd60-4f80-81c4-ca628e75c878"
+        },
+        {
+            "english": "",
+            "swahili": "",
+            "uuid": "60648d13-bb1c-4af6-be5d-c7a7f5b8b16d"
+        },
+        {
+            "type": "interactive",
+            "english": "I am called __name__.",
+            "swahili": "Mimi ninaitwa~ni_+_-naitwa __name__.",
+            "uuid": "0fc92575-cdea-41a5-b280-cc85a92ee378"
+        },
+        {
+            "type": "interactive",
+            "english": "You are called __name__.",
+            "swahili": "Wewe unaitwa __name__.",
+            "uuid": "b8667ce8-cfbe-48ee-a42a-bd90f4bf1f91"
+        },
+        {
+            "english": "He is bad, but they all are good.",
+            "swahili": "__=Yeye__ ni~is mbaya~bad , lakini~but __=wao__ ni~are __=nzuri__.",
+            "uuid": "9a9f017b-fa44-4b04-9e4d-d4dd48b724b9"
+        }
+    ]
 }

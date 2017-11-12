@@ -1,53 +1,61 @@
 {
     "title": "Classroom Vocabulary",
     "unit": "teaching",
-
     "lesson": [
         {
             "instruction": "This word is in the M-WA noun class (1 and 2).",
             "english": "teacher, teachers",
-            "swahili": "mwalimu, walimu"
+            "swahili": "mwalimu, walimu",
+            "uuid": "b26bc813-8f12-4dd3-8bf0-2c3114dd5492"
         },
         {
             "instruction": "This word is also in the M-WA noun class.",
             "english": "student, students",
-            "swahili": "mwanafunzi, wanafunzi"
+            "swahili": "mwanafunzi, wanafunzi",
+            "uuid": "08f6d003-e521-4b70-a635-ce5252a3652b"
         },
         {
             "instruction": "How would you politely greet a classroom of students?",
             "english": "Hello students, how are you?",
-            "swahili": "__=Hamjambo__ wanafunzi?"
+            "swahili": "__=Hamjambo__ wanafunzi?",
+            "uuid": "b8ff178f-004d-49d4-a4c5-9dbfdabb6698"
         },
         {
             "instruction": "How would the students politely respond to you?",
             "english": "Hello professor, we are good.",
-            "swahili": "__=Hatujambo mwalimu__."
+            "swahili": "__=Hatujambo mwalimu__.",
+            "uuid": "433d197e-4866-40c1-9146-3a1109472543"
         },
         {
             "type": "interactive",
             "instruction": "You might start a class by telling students what they will be learning today.",
             "english": "Today we will learn __mathematics/reading/writing/English/Swahili__.",
-            "swahili": "Leo~Today tutasoma~we_will_learn __hisabati/kusoma/kuandika/Kiingereza/Kiswahili__."
+            "swahili": "Leo~Today tutasoma~we_will_learn __hisabati/kusoma/kuandika/Kiingereza/Kiswahili__.",
+            "uuid": "0cbaf596-04c8-47bd-9dba-7151a384e71a"
         },
         {
             "instruction": "How would a student tell you they have a question?",
             "english": "I have a question.",
-            "swahili": "__=Nina__ swali."
+            "swahili": "__=Nina__ swali.",
+            "uuid": "04ece08a-55a4-483e-b0c7-e8b4bf5989e3"
         },
         {
             "instruction": "How would you ask a particular student if they have a question?",
             "english": "Do you have a question?",
-            "swahili": "__=Una swali__?"
+            "swahili": "__=Una swali__?",
+            "uuid": "5b739dcf-7e0d-46b7-b7d6-78d125b6333b"
         },
         {
             "instruction": "How would you ask all the students if they have a question?",
             "english": "Do you have a question?",
-            "swahili": "__=Mna swali__?"
+            "swahili": "__=Mna swali__?",
+            "uuid": "447b0418-1a68-494d-bc88-4a73d723744b"
         },
         {
             "instruction": "The verbs for open and close are quite similar.",
             "english": "to open and to close",
-            "swahili": "kifungua na kifunga"
+            "swahili": "kifungua na kifunga",
+            "uuid": "8bf3b178-5e46-4383-8400-37233e640353"
         }
     ]
 }

@@ -1,38 +1,42 @@
 {
     "title": "Asking How",
     "description": "Ask how to say things and convert conjugated sentences into questions.",
-
     "unit": "asking-questions",
-
     "lesson": [
         {
             "english": "to say",
-            "swahili": "kusema"
+            "swahili": "kusema",
+            "uuid": "b1fb8f27-fc41-42a2-9576-5cc9ae20e900"
         },
         {
             "english": "I say",
-            "swahili": "__=ninasema__"
+            "swahili": "__=ninasema__",
+            "uuid": "780b6e48-48e1-473e-8107-9e7f6b247973"
         },
         {
             "type": "interactive",
             "instruction": "By adding <code>je</code> at the end of a conjugated verb, we are converting it to a question on <em>how</em> the particular action is performed.",
             "english": "How do I say __word__?",
-            "swahili": "Ninasemaje~ninasema_+_je __word__?"
+            "swahili": "Ninasemaje~ninasema_+_je __word__?",
+            "uuid": "4822b0c1-9233-42c7-98ec-ffd1b2c46a5a"
         },
         {
             "instruction": "Conjugate the verb <code>kuenda</code> (to go) in the past tense.",
             "english": "you went",
-            "swahili": "__=ulienda__"
+            "swahili": "__=ulienda__",
+            "uuid": "4ed9eb63-41fc-48b9-a57d-3db1ac0f46e3"
         },
         {
             "instruction": "How do you think you would ask \"how did you go\"?",
             "english": "How did you go?",
-            "swahili": "__=Uliendaje__?"
+            "swahili": "__=Uliendaje__?",
+            "uuid": "32d05832-240e-4ad2-a4c9-a26393705b39"
         },
         {
             "instruction": "How do you think you would ask \"how <em>will</em> you go\"? Remember to conjugate <code>kuenda</code> (to go) in the future tense.",
             "english": "How will you go to the store?",
-            "swahili": "__=Utaendaje__ dukani~to_the_store ?"
+            "swahili": "__=Utaendaje__ dukani~to_the_store ?",
+            "uuid": "65f8217a-e748-445e-897b-4bd381c4b643"
         }
     ]
 }

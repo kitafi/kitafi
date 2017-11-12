@@ -1,106 +1,137 @@
 {
-	"title": "Introducing yourself",
-	"description": "Tell others about your name, nationality, and condition.",
-	"image": "speech.jpg",
-	"unit": "basic-conversation",
-
-	"lesson": [
-		{
-			"instruction": "This is how you would refer to yourself.",
-			"english": "I",
-			"swahili": "Mimi"
-		},
-		{
-			"instruction": "When describing yourself in the present tense, use <code>ni</code>.",
-			"english": "I am",
-			"swahili": "Mimi ni"
-		},
-		{
-			"type": "interactive",
-			"instruction": "Type your name into the blank. This is one way to tell someone your name.",
-			"english": "I am __your name__.",
-			"swahili": "Mimi ni __your name__."
-		},
-		{
-			"instruction": "This is how you would refer to a single person you are talking to.",
-			"english": "You",
-			"swahili": "Wewe"
-		},
-		{
-			"type": "question",
-			"instruction": "How do you think you would say this?",
-			"english": "You are",
-			"swahili": "Wewe __=ni__"
-		},
-		{
-			"type": "question",
-			"instruction": "The Swahili word for \"nice\" is the same as the word for \"good\".",
-			"english": "You are nice.",
-			"swahili": "__=Wewe ni nzuri__."
-		},
-		{
-			"english": "American",
-			"swahili": "Mmarekani"
-		},
-		{
-			"type": "question",
-			"english": "Are you American?",
-			"swahili": "Wewe ni __=Mmarekani__?"
-		},
-		{
-			"english": "yes",
-			"swahili": "ndiyo"
-		},
-		{
-			"type": "question",
-			"instruction": "How would you tell someone you are an American?",
-			"english": "Yes, I am American.",
-			"swahili": "__=Ndiyo, mimi ni Mmarekani__."
-		},
-		{
-			"instruction": "This is the formal way to say \"no\". You may also hear a Swahili speaker say <code>la</code> instead of <code>hapana</code>.",
-			"english": "no",
-			"swahili": "hapana"
-		},
-		{
-			"instruction": "The word <code>si</code> is the opposite of <code>ni</code> - you often hear this sound when talking about something in the negative.",
-			"english": "I am not American.",
-			"swahili": "Mimi si~am_not Mmarekani."
-		},
-		{
-			"english": "Tanzanian",
-			"swahili": "Mtanzania"
-		},
-		{
-			"type": "question",
-			"instruction": "Tell someone that you are not from Tanzania.",
-			"english": "No, I am not Tanzanian.",
-			"swahili": "__=Hapana, mimi si Mtanzania__."
-		},
-		{
-			"instruction": "This is how you would refer to any African person.",
-			"english": "African",
-			"swahili": "Mwafrika"
-		},
-		{
-			"type": "question",
-			"instruction": "The word <code>na</code> means \"and\".",
-			"english": "I am American and you are Kenyan.",
-			"swahili": "__=Mimi ni Mmarekani__ na~and __=wewe ni Mkenya__."
-		},
-		{
-			"english": "How about you?",
-			"swahili": "Na wewe je?"
-		},
-		{
-			"english": "I am good, how about you?",
-			"swahili": "__=Mimi ni nzuri, na wewe je__?"
-		},
-		{
-			"type": "question",
-			"instruction": "The word <code>lakini</code> is a common conjunction between contrasting statements.",
-			"english": "I am not Tanzanian, but I am African.",
-			"swahili": "__=Mimi si Mtanzania__, lakini~but __=mimi ni Mwafrika__."
-		}
-	]
+    "title": "Introducing yourself",
+    "description": "Tell others about your name, nationality, and condition.",
+    "image": "speech.jpg",
+    "unit": "basic-conversation",
+    "lesson": [
+        {
+            "instruction": "This is how you would refer to yourself.",
+            "english": "I",
+            "swahili": "Mimi",
+            "uuid": "cb2b5880-9490-4c7c-a2e1-4060b7ff27be"
+        },
+        {
+            "instruction": "When describing yourself in the present tense, use <code>ni</code>.",
+            "english": "I am",
+            "swahili": "Mimi ni",
+            "uuid": "2ccb930c-a2ba-4797-aca1-c0e852c932d6"
+        },
+        {
+            "type": "interactive",
+            "instruction": "Type your name into the blank. This is one way to tell someone your name.",
+            "english": "I am __your name__.",
+            "swahili": "Mimi ni __your name__.",
+            "uuid": "e9cf405e-de3d-445f-8335-09f0bca0b2e6"
+        },
+        {
+            "type": "interactive",
+            "instruction": "You can also use <code>mimi ni</code> to state your profession. Select a profession from the dropdown menu to see its translation.<br><br> Notice that the words \"a\" and \"an\" don't have a Swahili equivalent.",
+            "english": "I am __a student/a teacher/a doctor/a businessman/an interpreter__.",
+            "swahili": "Mimi ni __mwanafunzi/mwalimu/daktari/mfanyibiashara/mkalimani__.",
+            "uuid": "d31f26ad-3b9c-406b-be88-4f76da93f13b"
+        },
+        {
+            "instruction": "This is how you would refer to a single person you are talking to.",
+            "english": "You",
+            "swahili": "Wewe",
+            "uuid": "ddcce5f0-67bc-462d-9d5f-0c7783f6204f"
+        },
+        {
+            "type": "question",
+            "instruction": "How do you think you would say this?",
+            "english": "You are",
+            "swahili": "Wewe __=ni__",
+            "uuid": "d274a186-b6f9-45bd-ad71-9c8267d893a5"
+        },
+        {
+            "type": "question",
+            "instruction": "The Swahili word for \"nice\" is the same as the word for \"good\".",
+            "english": "You are nice.",
+            "swahili": "__=Wewe ni nzuri__.",
+            "uuid": "9e577124-fa7e-4758-9184-a95cec3e06fa"
+        },
+        {
+            "english": "American",
+            "swahili": "Mmarekani",
+            "uuid": "bb596686-7058-4b24-9de1-a60321e594e1"
+        },
+        {
+            "type": "question",
+            "english": "Are you American?",
+            "swahili": "Wewe ni __=Mmarekani__?",
+            "uuid": "f4a14a4f-a3a1-4c5a-8f5f-823c791e7d61"
+        },
+        {
+            "english": "yes",
+            "swahili": "ndiyo",
+            "uuid": "f4150f15-06a7-4834-a0d4-9f9298973f78"
+        },
+        {
+            "type": "question",
+            "instruction": "How would you tell someone you are an American?",
+            "english": "Yes, I am American.",
+            "swahili": "__=Ndiyo, mimi ni Mmarekani__.",
+            "uuid": "2f901d41-5c02-47cd-a96d-5d2844233ff0"
+        },
+        {
+            "instruction": "This is the formal way to say \"no\". You may also hear a Swahili speaker say <code>la</code> instead of <code>hapana</code>.",
+            "english": "no",
+            "swahili": "hapana",
+            "uuid": "6daeca7d-cb76-48d6-bdec-d107d20873be"
+        },
+        {
+            "instruction": "The word <code>si</code> is the opposite of <code>ni</code> - you often hear this sound when talking about something in the negative.",
+            "english": "I am not American.",
+            "swahili": "Mimi si~am_not Mmarekani.",
+            "uuid": "4b9f6e40-1441-49ca-b397-96496c83d4cf"
+        },
+        {
+            "instruction": "How would you tell someone that you are not a doctor, but rather a businessman?",
+            "english": "I am not a doctor. I am a businessman.",
+            "swahili": "Mimi si __=daktari__. Mimi ni __=mfanyibiashara__.",
+            "uuid": "e307a288-fad3-4949-b0eb-6b2d2bc5887e"
+        },
+        {
+            "english": "Tanzanian",
+            "swahili": "Mtanzania",
+            "uuid": "9cf79ff5-4351-400e-8b10-c337a5c8dd67"
+        },
+        {
+            "type": "question",
+            "instruction": "Tell someone that you are not from Tanzania.",
+            "english": "No, I am not Tanzanian.",
+            "swahili": "__=Hapana, mimi si Mtanzania__.",
+            "uuid": "8d7f9110-4647-484c-8dc9-a9e558be1cc8"
+        },
+        {
+            "instruction": "This is how you would refer to any African person.",
+            "english": "African",
+            "swahili": "Mwafrika",
+            "uuid": "e60855e9-c857-4d26-b516-3c008c101374"
+        },
+        {
+            "type": "question",
+            "instruction": "The word <code>na</code> means \"and\".",
+            "english": "I am American and you are Kenyan.",
+            "swahili": "__=Mimi ni Mmarekani__ na~and __=wewe ni Mkenya__.",
+            "uuid": "659153da-e197-4d59-9666-b586c0ac4832"
+        },
+        {
+            "english": "How about you?",
+            "swahili": "Na wewe je?",
+            "uuid": "7a2573b0-f537-4b48-9e48-e1e53634f782"
+        },
+        {
+            "english": "I am good, how about you?",
+            "swahili": "__=Mimi ni nzuri, na wewe je__?",
+            "uuid": "3837e941-158b-4454-b101-76ea89f1296e"
+        },
+        {
+            "type": "question",
+            "instruction": "The word <code>lakini</code> is a common conjunction between contrasting statements.",
+            "english": "I am not Tanzanian, but I am African.",
+            "swahili": "__=Mimi si Mtanzania__, lakini~but __=mimi ni Mwafrika__.",
+            "uuid": "8d7cd0a2-dfad-4d48-a374-5a4435a283e5"
+        }
+    ]
 }

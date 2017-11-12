@@ -17,7 +17,8 @@
 		<div class="carousel-inner">
 			{% for slide in lesson %}
 			<div class="carousel-item{% if loop.index0 < 1 %} active{% endif %}"
-				 data-type="{{ slide.type | default('learn') }}">
+				 data-type="{{ slide.type | default('learn') }}"
+				 data-uuid="{{ slide.uuid | default(loop.index0) }}">
 				{% if slide.instruction %}
 				<h3 class="instruction">{{ slide.instruction | safe }}</h3>
 				{% endif %}

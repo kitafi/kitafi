@@ -1,53 +1,61 @@
 {
     "title": "The -na verb",
     "unit": "basic-conversation",
-
     "lesson": [
         {
             "type": "interactive",
             "instruction": "The verb \"to have\" is constructed by adding a prefix to <code>na</code>.",
             "english": "__I have/You have/He has/She has/We have/You all have/They have__ a friend.",
-            "swahili": "__Nina/Una/Ana/Ana/Tuna/Mna/Wana__ rafiki~friend ."
+            "swahili": "__Nina/Una/Ana/Ana/Tuna/Mna/Wana__ rafiki~friend .",
+            "uuid": "40999baf-a66f-4bbf-9929-a619c661f7ce"
         },
         {
             "instruction": "When using \"to have\" in the past tense, the root <code>na</code> becomes <code>likuwa na</code>.",
             "english": "I had a car.",
-            "swahili": "Nilikuwa na gari."
+            "swahili": "Nilikuwa na gari.",
+            "uuid": "84a5afc8-6963-4d59-b6f9-163d76a12034"
         },
         {
             "instruction": "How would you conjugate the phrase \"you had\"?",
             "english": "You had a dog.",
-            "swahili": "__=Ulikuwa na__ mbwa~dog ."
+            "swahili": "__=Ulikuwa na__ mbwa~dog .",
+            "uuid": "9eb49c24-4e32-411a-b9ce-8eb453dbf232"
         },
         {
             "instruction": "How would you conjugate the phrase \"you all had\"?",
             "english": "You all had a cat.",
-            "swahili": "__=Mlikuwa na__ paka~cat ."
+            "swahili": "__=Mlikuwa na__ paka~cat .",
+            "uuid": "1a483526-977e-4d00-b15d-cc223ee624e4"
         },
         {
             "instruction": "When using \"to have\" in the future tense, the root <code>na</code> becomes <code>takuwa na</code>.",
             "english": "We will have work.",
-            "swahili": "Tutakuwa na kazi~work ."
+            "swahili": "Tutakuwa na kazi~work .",
+            "uuid": "5fafa548-6586-4e75-b897-19bf87d3e223"
         },
         {
             "instruction": "Translate the following sentence. Use the pronouns <code>yeye</code> and <code>wao</code>, and remember <code>lakini</code> is the word for \"but\".",
             "english": "She has a cat, but they will have a dog.",
-            "swahili": "__=Yeye ana paka, lakini wao watakuwa na mbwa__ ."
+            "swahili": "__=Yeye ana paka, lakini wao watakuwa na mbwa__ .",
+            "uuid": "ddb42839-a4f0-4262-b7aa-1bc807447a9b"
         },
         {
             "instruction": "",
             "english": "",
-            "swahili": ""
+            "swahili": "",
+            "uuid": "bdb20284-0cfd-4649-9817-6afe8e3e56ab"
         },
         {
             "instruction": "",
             "english": "",
-            "swahili": ""
+            "swahili": "",
+            "uuid": "7c7e9781-bc4f-4e46-a681-c2507f9193be"
         },
         {
             "instruction": "",
             "english": "",
-            "swahili": ""
+            "swahili": "",
+            "uuid": "2a849b59-1627-48cc-ace7-9a72d6c6c3ac"
         }
     ]
 }

@@ -1,57 +1,66 @@
 {
     "title": "Numbers",
     "unit": "basic-conversation",
-
     "lesson": [
         {
             "instruction": "Let's get started with 0, 1, 2, 3.",
             "english": "zero one two three",
-            "swahili": "sifuri moja mbili tatu"
+            "swahili": "sifuri moja mbili tatu",
+            "uuid": "c8f77a4e-acb5-47f5-b15e-756dc8618b48"
         },
         {
             "instruction": "In Swahili, numbers may be conjugated based on the noun class of whatever they are quantifying. For example, <code>mwanafunzi</code> (student) in noun class 1 adds the <code>m</code> prefix, and <code>wanafunzi</code> (students pl.) in noun class 2 adds the <code>wa</code> prefix.<br><br>Notice <code>wili</code> is sometimes used instead of <code>mbili</code> when conjugated.",
             "english": "one student, two students",
-            "swahili": "mwanafunzi mmoja~m_+_moja , wanafunzi wawili~wa_+_wili"
+            "swahili": "mwanafunzi mmoja~m_+_moja , wanafunzi wawili~wa_+_wili",
+            "uuid": "b004dd4f-38ef-483a-9391-aeb6c1dfec1a"
         },
         {
             "instruction": "How would you conjugate the number three?",
             "english": "three students",
-            "swahili": "wanafunzi __=wa__tatu"
+            "swahili": "wanafunzi __=wa__tatu",
+            "uuid": "246acc5b-04d4-4fde-8928-9464746e541a"
         },
         {
             "instruction": "Here are the next three numbers.",
             "english": "four five six",
-            "swahili": "nne tano sita"
+            "swahili": "nne tano sita",
+            "uuid": "927daf10-41a4-4a7f-8e1e-8ab7ec7197c9"
         },
         {
             "instruction": "When quantifying verbs in the first and second noun class (M-WA), the prefix only is attached to four (<code>nne</code>) and five(<code>tano</code>), not six (<code>sita</code>).",
             "english": "four women, five men, six children",
-            "swahili": "wanawake~women wanne, wanaume~men watano, watoto~children sita"
+            "swahili": "wanawake~women wanne, wanaume~men watano, watoto~children sita",
+            "uuid": "b9f04b5b-bd16-492e-bb43-d8826ff31751"
         },
         {
             "instruction": "Here are the last single digit numbers.",
             "english": "seven eight nine",
-            "swahili": "saba nane tisa"
+            "swahili": "saba nane tisa",
+            "uuid": "aa8eadca-f812-4057-978a-759fc95ba3fe"
         },
         {
             "instruction": "For the M-WA noun class, a prefix is only attached to eight (<code>nane</code>).",
             "english": "seven interpreters, eight farmers, nine cooks",
-            "swahili": "wafasiri~interpreters saba, wakulima~farmers wanane~wa_+_nane , wapishi~cooks tisa"
+            "swahili": "wafasiri~interpreters saba, wakulima~farmers wanane~wa_+_nane , wapishi~cooks tisa",
+            "uuid": "00aeafe3-dce2-472c-84d9-facf2abeb958"
         },
         {
             "instruction": "Now lets construct.",
             "english": "four five six",
-            "swahili": "nne tano sita"
+            "swahili": "nne tano sita",
+            "uuid": "5e019091-774f-4326-8cce-617a0c122691"
         },
         {
             "instruction": "For the third and fourth noun class (M-MI), the prefix is .",
             "english": "four five six",
-            "swahili": "nne tano sita"
+            "swahili": "nne tano sita",
+            "uuid": "3458b8d9-aec2-4cb0-ba91-613a9307d2f3"
         },
         {
             "instruction": "Now lets construct.",
             "english": "four five six",
-            "swahili": "nne tano sita"
+            "swahili": "nne tano sita",
+            "uuid": "c39b5dce-8efb-4e07-ac86-f1633c7606da"
         }
     ]
 }
