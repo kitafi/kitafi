@@ -19,7 +19,7 @@
 			<div class="carousel-item{% if loop.index0 < 1 %} active{% endif %}"
 				 data-type="{{ slide.type | default('learn') }}"
 				 data-uuid="{{ slide.uuid | default(loop.index0) }}">
-				{% if slide.instruction %}
+				{% if slide.instruction and slide.instruction.length > 0 %}
 				<h3 class="instruction">{{ slide.instruction | safe }}</h3>
 				{% endif %}
 				{% if slide.conversation or slide.split %}

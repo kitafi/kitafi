@@ -22,61 +22,70 @@
             "uuid": "01bfe3e4-68ec-404d-848c-713c1a3e01f7"
         },
         {
+            "instruction": "Let's use pronouns that requires us to talk about two or more people.",
             "english": "we",
             "swahili": "sisi",
             "uuid": "18d9f10a-c1da-4fe1-99d9-ccfdc7e26438"
         },
         {
+            "instruction": "When referring to a plural number of Americans, Tanzanians, or Africans, the <code>M</code> prefix becomes <code>Wa</code>. Unlike English, many Swahili nouns and adjectives change based on whether they are used in a singular or plural context.",
+            "english": "Americans, Africans, Tanzanians",
+            "swahili": "Wamarekani, Waafrika, Watanzania",
+            "uuid": "7e8eb747-5555-4830-a5d6-5543373b30e2"
+        },
+        {
+            "instruction": "Use the plural form of \"African\" here.",
             "english": "We are African.",
-            "swahili": "__=Sisi ni Mwafrika__.",
+            "swahili": "__=Sisi ni Waafrika__.",
             "uuid": "35e170bd-0e27-4da3-8b1e-81dc0bbf49a4"
         },
         {
+            "instruction": "This is the pronoun you would use to directly address more than one person. Sometimes this pronoun will be pronounced and spelled as <code>ninyi</code>, but we will use the more common <code>nyinyi</code>.",
             "english": "you all <span class=\"muted\">(plural)</span>",
             "swahili": "nyinyi",
             "uuid": "77a4678f-4128-4e8d-ae94-425b9e8bdd51"
         },
         {
+            "instruction": "How would you ask this question? Remember to use the plural form of \"Tanzanian\".",
+            "english": "Are you all Tanzanian?",
+            "swahili": "__=Nyinyi ni Watanzania__?",
+            "uuid": "35e170bd-0e27-4da3-8b1e-81dc0bbf49a4"
+        },
+        {
+            "instruction": "When greeting more than one person, use the greeting <code>hamjambo</code> instead of <code>hujambo</code>.",
             "english": "Hello, how are you all?",
             "swahili": "Hamjambo, habari gani?",
             "uuid": "e82ee002-5a74-4e64-867f-b905e4c2667a"
         },
         {
+            "instruction": "When responding to <code>hamjambo</code>, use <code>hatujambo</code> instead of <code>sijambo</code>.",
             "english": "Hello, we are good.",
-            "swahili": "Hatujambo, sisi~we ni nzuri~good.",
+            "swahili": "Hatujambo, sisi~we ni nzuri~good .",
             "uuid": "663f8c1e-2cdf-4a92-9f10-b9d52955da2a"
         },
         {
+            "instruction": "Use <code>wao</code> to indirectly refer to more than one person.",
             "english": "they/them",
             "swahili": "wao",
             "uuid": "f46fcf93-4b35-4c95-932d-dd0d49174ff6"
         },
         {
+            "instruction": "Remember the word for \"okay\" is the same as the word for \"good\", <code>nzuri</code>. However, since this is used in a plural context, <code>nzuri</code> changes to <code>wazuri</code>.",
             "english": "Are they okay?",
-            "swahili": "__=Wao ni nzuri?__",
+            "swahili": "__=Wao ni wazuri?__",
             "uuid": "1af79465-fd60-4f80-81c4-ca628e75c878"
         },
         {
-            "english": "",
-            "swahili": "",
-            "uuid": "60648d13-bb1c-4af6-be5d-c7a7f5b8b16d"
-        },
-        {
-            "type": "interactive",
-            "english": "I am called __name__.",
-            "swahili": "Mimi ninaitwa~ni_+_-naitwa __name__.",
-            "uuid": "0fc92575-cdea-41a5-b280-cc85a92ee378"
-        },
-        {
-            "type": "interactive",
-            "english": "You are called __name__.",
-            "swahili": "Wewe unaitwa __name__.",
-            "uuid": "b8667ce8-cfbe-48ee-a42a-bd90f4bf1f91"
-        },
-        {
+			"instruction": "Fill in the pronouns and adjective. Notice the word for \"bad\" is <code>mbaya</code>.",
             "english": "He is bad, but they all are good.",
-            "swahili": "__=Yeye__ ni~is mbaya~bad , lakini~but __=wao__ ni~are __=nzuri__.",
+            "swahili": "__=Yeye__ ni~is mbaya~bad , lakini~but __=wao__ ni~are __=wazuri__.",
             "uuid": "9a9f017b-fa44-4b04-9e4d-d4dd48b724b9"
+        },
+        {
+			"instruction": "What do you think is the plural form of <code>mbaya</code> (bad)?",
+            "english": "We are bad.",
+            "swahili": "__=Sisi ni wabaya__.",
+            "uuid": "36ea05c4-3bbf-46e9-9c24-b3769580a9a8"
         }
     ]
 }

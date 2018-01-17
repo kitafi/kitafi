@@ -5,54 +5,96 @@
     "unit": "basic-conversation",
     "lesson": [
         {
-            "instruction": "Here is the noun for ",
+            "instruction": "Here is the noun for \"name\".",
             "english": "name",
             "swahili": "jina",
             "uuid": "a66720a2-19b0-4820-8afb-2a0f1b107350"
         },
         {
+            "instruction": "The first person possessive for a singular object ends with <code>angu</code>, and can vary based on the noun.",
             "english": "my name",
             "swahili": "jina langu",
             "uuid": "b2a00eb1-fa04-44d7-abb1-de8a6e699695"
         },
         {
             "type": "interactive",
+            "instruction": "Try entering your name to see how you would introduce yourself in Swahili.",
             "english": "My name is __name__.",
             "swahili": "Jina langu ni __name__.",
             "uuid": "ccc95e30-6354-432d-ac16-e28ba53bfd67"
         },
         {
+            "instruction": "Notice how the singular possessive marker is slightly different when talking about possessing a living thing. When you get to <a href=\"/lesson/noun-classes\">noun classes</a>, you will learn about all the noun classes and their prefixes.",
+            "english": "my teacher",
+            "swahili": "mwalimu~teacher wangu~w_+_angu",
+            "uuid": "bf220bce-5098-4633-9b74-c4c76016498e"
+        },
+        {
+            "instruction": "Similar to <code>angu</code>, the 2nd person possessive word ends with <code>ako</code>.",
             "english": "your name",
             "swahili": "jina lako",
             "uuid": "954dfeff-82e5-4dc6-a929-b4cfd412bf22"
         },
         {
             "type": "interactive",
-            "english": "Your name is __name__.",
-            "swahili": "Jina lako ni __name__.",
+            "instruction": "Enter a name into the blank to see how you might ask someone to remind you of their name.",
+            "english": "Is your name __name__?",
+            "swahili": "Jina lako ni __name__?",
             "uuid": "b87f6b4c-5711-4108-8834-ff055362062a"
         },
         {
-            "instruction": "Notice the word order is the reverse of English.",
+            "instruction": "The word <code>nani</code> is used whenever you are asking a \"what\" question. Notice the word order is the reverse of English.",
             "english": "What is it?",
-            "swahili": "Ni nani?",
+            "swahili": "Ni~is nani~what ?",
             "uuid": "003a2da2-8be0-4c6b-9e1e-2a878b142ed1"
         },
         {
+            "instruction": "How do you think you might ask someone what their name is? Remember the word order is reversed, so you would literally be asking \"your name is what?\"",
             "english": "What is your name?",
-            "swahili": "__=Jina lako__ ni nani?",
+            "swahili": "__=Jina lako__ ni __=nani__ ?",
             "uuid": "9e3d6de8-161f-4624-abe4-d215c7ffcee4"
         },
         {
-            "instruction": "Swahili does not have different pronouns for gender",
+            "instruction": "Swahili does not have different pronouns for gender.",
             "english": "his/her name",
             "swahili": "jina lake",
             "uuid": "36d136b8-d839-4591-847f-e0dc3762a2f0"
         },
         {
+            "instruction": "How would you find out the name of someone you are not directly addressing?",
             "english": "What is his name?",
             "swahili": "__=Jina lake ni nani__?",
             "uuid": "0319f3e3-fcf2-42ea-8858-f3abeea97caa"
+        },
+        {
+            "instruction": "How might someone respond to you that his name is Azizi?",
+            "english": "His name is Azizi.",
+            "swahili": "__=Jina lake ni Azizi__.",
+            "uuid": "e9912914-11cd-4932-b7dc-059f39187867"
+        },
+        {
+            "instruction": "Here is the Swahili word for friend. Disney fans will likely recognize this as the name of the prophetic monkey from Lion King.",
+            "english": "friend",
+            "swahili": "rafiki",
+            "uuid": "54286523-4001-4c5d-83aa-62487f465ee2"
+        },
+        {
+            "instruction": "Friends are living things - what do you think the possessive word will be for them?",
+            "english": "my friend",
+            "swahili": "__=rafiki wangu__",
+            "uuid": "782cca0d-fc96-47a3-aded-1cd0672b5892"
+        },
+        {
+            "instruction": "How would you compliment someone else's friend?",
+            "english": "Your friend is nice.",
+            "swahili": "__=Rafiki yako ni nzuri__.",
+            "uuid": "4c6fafc3-b607-4cc5-80ee-77c46917fad7"
+        },
+        {
+            "instruction": "",
+            "english": "",
+            "swahili": "",
+            "uuid": "7cf49e5a-03e7-4ec5-b987-42d278efb6a6"
         }
     ]
 }

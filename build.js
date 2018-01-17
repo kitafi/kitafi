@@ -44,17 +44,24 @@ function render(templateName, fileName) {
 				// Check for UUIDs and immediately write back the formatted JSON
 				// with any new UUIDs inserted
 				if (templateName == 'lesson' && Array.isArray(json.lesson)) {
-					let missingUUID = false;
+					let missingFields = false;
 
 					json.lesson.forEach(function(lesson) {
+						if (lesson.english == null) {
+							lesson.english = '';
+							missingFields = true;
+						}
+						if (lesson.swahili == null) {
+							lesson.swahili = '';
+							missingFields = true;
+						}
 						if (! lesson.uuid) {
 							lesson.uuid = uuid();
-							missingUUID = true;
+							missingFields = true;
 						}
 					});
 
-					if (missingUUID) {
-						console.log('missing uuid for ' + fileName);
+					if (missingFields) {
 						fs.writeFile(path.join(__dirname, templateName, fileName),
 							JSON.stringify(json, null, 4), function(writeError) {
 								if (writeError)
@@ -211,7 +218,7 @@ build.template.forEach(function(templateName) {
 	// Iterate over all files
 	fs.readdirSync(path.join(__dirname, templateName)).forEach(function(fileName) {
 		if (fileName == '.DS_Store') return;
-		
+
 		try {
 			// Read the JSON data
 			data[templateName][path.basename(fileName, '.json')] =
