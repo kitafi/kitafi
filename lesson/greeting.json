@@ -32,12 +32,14 @@
         {
             "english": "Thank you.",
             "swahili": "Asante.",
-            "uuid": "25535c2a-6046-4e40-8b31-71bba8a4624a"
+            "uuid": "25535c2a-6046-4e40-8b31-71bba8a4624a",
+            "instruction": ""
         },
         {
             "english": "Thank you very much.",
             "swahili": "Asante sana~very .",
-            "uuid": "25535c2a-6046-4e40-8b31-71bba8a4624a"
+            "uuid": "25535c2a-6046-4e40-8b31-71bba8a4624a",
+            "instruction": ""
         },
         {
             "type": "question",
@@ -55,12 +57,14 @@
         {
             "english": "good",
             "swahili": "nzuri",
-            "uuid": "a53308aa-d7e6-4197-b205-2b8133f87bfe"
+            "uuid": "a53308aa-d7e6-4197-b205-2b8133f87bfe",
+            "instruction": ""
         },
         {
             "uuid": "207d41eb-de92-4cf4-a5b6-716631ce6ce7",
             "swahili": "",
-            "english": ""
+            "english": "",
+            "instruction": ""
         },
         {
             "type": "question",

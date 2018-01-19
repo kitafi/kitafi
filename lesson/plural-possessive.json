@@ -1,0 +1,33 @@
+{
+    "title": "Possessive Pronouns",
+    "description": "Use words that demonstrate ownership of multiple objects, and use them to form questions to ask other people.",
+    "image": "drought.jpg",
+    "unit": "basic-conversation",
+    "lesson": [
+		{
+            "instruction": "When referring to a plural number of items, the noun changes.",
+            "english": "my teachers",
+            "swahili": "walimu wangu",
+            "uuid": "708f8ba1-e6c2-42f5-868c-efdac8bfd8b9"
+        },
+        {
+            "instruction": "When you are part of a group that owns something, use <code>etu</code>.",
+            "english": "our teacher",
+            "swahili": "mwalimu wetu",
+            "uuid": "b4cc47e4-398e-4cd5-ba54-a56900800555"
+        },
+        {
+            "type": "interactive",
+            "instruction": "When using certain family words like mothers (<code>mama</code>), fathers (<code>baba</code>), sisters (<code>dada</code>), and friends (<code>marafiki</code>) in the plural, the possessive word is <code>zangu</code>.",
+            "english": "my __friends/sisters/mothers/fathers__.",
+            "swahili": "__marafiki/dada/mama/baba__ zangu",
+            "uuid": "eac5c4ef-67f1-4363-aa73-edd03b2c6b38"
+        },
+        {
+            "instruction": "",
+            "english": "",
+            "swahili": "",
+            "uuid": "c1a0bb85-c103-412e-9bb5-8e0c1c5c275f"
+        }
+    ]
+}

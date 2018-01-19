@@ -12,47 +12,56 @@
         {
             "english": "cat",
             "swahili": "paka",
-            "uuid": "7ebda44b-7dbe-4448-bf71-461477b39818"
+            "uuid": "7ebda44b-7dbe-4448-bf71-461477b39818",
+            "instruction": ""
         },
         {
             "english": "stray dog",
             "swahili": "mbwa koko",
-            "uuid": "20f27abe-185a-43b1-a6e5-b8f704faaa87"
+            "uuid": "20f27abe-185a-43b1-a6e5-b8f704faaa87",
+            "instruction": ""
         },
         {
             "english": "wolf",
             "swahili": "mbwa mitu",
-            "uuid": "d2b596aa-136e-4f7e-b648-8851422ae9c5"
+            "uuid": "d2b596aa-136e-4f7e-b648-8851422ae9c5",
+            "instruction": ""
         },
         {
             "english": "lion",
             "swahili": "simba",
-            "uuid": "9a807c4f-31ac-4e66-b3ea-e9212dceb7f1"
+            "uuid": "9a807c4f-31ac-4e66-b3ea-e9212dceb7f1",
+            "instruction": ""
         },
         {
             "english": "shark",
             "swahili": "paka",
-            "uuid": "2139924b-5d7a-4303-8c74-da2aeeeeb30e"
+            "uuid": "2139924b-5d7a-4303-8c74-da2aeeeeb30e",
+            "instruction": ""
         },
         {
             "english": "fish",
             "swahili": "samaki",
-            "uuid": "199eb0a4-18b0-4703-aeeb-801f9cf472e6"
+            "uuid": "199eb0a4-18b0-4703-aeeb-801f9cf472e6",
+            "instruction": ""
         },
         {
             "english": "",
             "swahili": "",
-            "uuid": "7a406352-131b-4efb-a515-311bbcc77be1"
+            "uuid": "7a406352-131b-4efb-a515-311bbcc77be1",
+            "instruction": ""
         },
         {
             "english": "",
             "swahili": "",
-            "uuid": "ea79aa13-d2d4-4f47-9ed2-8c3953652c89"
+            "uuid": "ea79aa13-d2d4-4f47-9ed2-8c3953652c89",
+            "instruction": ""
         },
         {
             "english": "",
             "swahili": "",
-            "uuid": "f4917abf-42f7-49ff-8f69-1b2c40af7a65"
+            "uuid": "f4917abf-42f7-49ff-8f69-1b2c40af7a65",
+            "instruction": ""
         }
     ]
 }

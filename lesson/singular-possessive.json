@@ -1,6 +1,6 @@
 {
-    "title": "Possessive Pronouns",
-    "description": "Use words that demonstrate ownership and use them to form questions to ask other people.",
+    "title": "Singular Posessive",
+    "description": "Use words that demonstrate ownership of a singular object, and use them to form questions to ask other people.",
     "image": "drought.jpg",
     "unit": "basic-conversation",
     "lesson": [
@@ -24,7 +24,7 @@
             "uuid": "ccc95e30-6354-432d-ac16-e28ba53bfd67"
         },
         {
-            "instruction": "Notice how the singular possessive marker is slightly different when talking about possessing a living thing. When you get to <a href=\"/lesson/noun-classes\">noun classes</a>, you will learn about all the noun classes and their prefixes.",
+            "instruction": "Notice how the singular possessive marker is slightly different when talking about possessing a living thing. When you get to <a href=\"/lesson/noun-classes\">noun classes</a>, you will learn about all the noun classes and their prefixes, as well as exceptions to these rules.<br><small>The best way to learn the right prefixes is to practice speaking and reading Swahili.</small>",
             "english": "my teacher",
             "swahili": "mwalimu~teacher wangu~w_+_angu",
             "uuid": "bf220bce-5098-4633-9b74-c4c76016498e"
@@ -73,16 +73,16 @@
             "uuid": "e9912914-11cd-4932-b7dc-059f39187867"
         },
         {
-            "instruction": "Here is the Swahili word for friend. Disney fans will likely recognize this as the name of the prophetic monkey from Lion King.",
+            "instruction": "Here is the Swahili word for friend.<br><small>Disney fans will likely recognize this as the name of the prophetic monkey from Lion King.</small>",
             "english": "friend",
             "swahili": "rafiki",
             "uuid": "54286523-4001-4c5d-83aa-62487f465ee2"
         },
         {
-            "instruction": "Friends are living things - what do you think the possessive word will be for them?",
+            "instruction": "When Swahili speakers use ownership with certain family words like mother (<code>mama</code>), father (<code>baba</code>), and friend (<code>rafiki</code>), we use the word <code>yangu</code>.",
             "english": "my friend",
-            "swahili": "__=rafiki wangu__",
-            "uuid": "782cca0d-fc96-47a3-aded-1cd0672b5892"
+            "swahili": "rafiki yangu",
+            "uuid": "a7a4a4bc-34e1-4275-b76b-8bd0a9f7082b"
         },
         {
             "instruction": "How would you compliment someone else's friend?",
@@ -91,10 +91,16 @@
             "uuid": "4c6fafc3-b607-4cc5-80ee-77c46917fad7"
         },
         {
-            "instruction": "",
-            "english": "",
-            "swahili": "",
+            "instruction": "How would you say this? Remember the word <code>si</code> (is not) is the negative of <code>ni</code> (is).",
+            "english": "His friend is not my friend.",
+            "swahili": "__=Rafiki yake__ si~is_not __=rafiki wangu__.",
             "uuid": "7cf49e5a-03e7-4ec5-b987-42d278efb6a6"
+        },
+        {
+            "instruction": "How would you welcome a friend of a friend?",
+            "english": "Your friend is my friend.",
+            "swahili": "__=Rafiki wako ni rafiki wangu__.",
+            "uuid": "cfaa517d-9dd8-43df-8506-6a1842fdc0d7"
         }
     ]
 }

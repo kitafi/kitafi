@@ -6,22 +6,26 @@
         {
             "english": "good morning",
             "swahili": "habari za asubuhi",
-            "uuid": "864ce20a-6654-4b74-9965-52c527bc6272"
+            "uuid": "864ce20a-6654-4b74-9965-52c527bc6272",
+            "instruction": ""
         },
         {
             "english": "good afternoon",
             "swahili": "habari za mchana",
-            "uuid": "beade365-b229-4d0b-8dc1-45532fecac8d"
+            "uuid": "beade365-b229-4d0b-8dc1-45532fecac8d",
+            "instruction": ""
         },
         {
             "english": "How are father and mother?",
             "swahili": "Baba na mama hawajambo?",
-            "uuid": "f4f2d81f-919d-4957-8e47-6e4a2002e9ab"
+            "uuid": "f4f2d81f-919d-4957-8e47-6e4a2002e9ab",
+            "instruction": ""
         },
         {
             "english": "good evening",
             "swahili": "habari za jioni",
-            "uuid": "0c360ed7-0cbf-444f-8147-77b91c0dff3c"
+            "uuid": "0c360ed7-0cbf-444f-8147-77b91c0dff3c",
+            "instruction": ""
         },
         {
             "instruction": "The word <code>juma</code> means \"day\", so <code>Jumamosi</code> literally means \"first day\" and <code>Jumapili</code> is \"second day\".",

@@ -3,14 +3,14 @@
     "unit": "basic-conversation",
     "lesson": [
         {
-			"instruction": "",
+            "instruction": "",
             "english": "to be named",
             "swahili": "kunaitwa",
             "uuid": "60648d13-bb1c-4af6-be5d-c7a7f5b8b16d"
         },
         {
             "type": "interactive",
-			"instruction": "Type your name into the interactive input to see how you would commonly introduce yourself in Swahili.",
+            "instruction": "Type your name into the interactive input to see how you would commonly introduce yourself in Swahili.",
             "english": "I am called __name__.",
             "swahili": "Mimi ninaitwa~ni_+_-naitwa __name__.",
             "uuid": "0fc92575-cdea-41a5-b280-cc85a92ee378"
@@ -19,7 +19,8 @@
             "type": "interactive",
             "english": "You are called __name__.",
             "swahili": "Wewe unaitwa __name__.",
-            "uuid": "b8667ce8-cfbe-48ee-a42a-bd90f4bf1f91"
+            "uuid": "b8667ce8-cfbe-48ee-a42a-bd90f4bf1f91",
+            "instruction": ""
         },
         {
             "instruction": "Swahili verbs often start with <code>ku</code> in the <em>infinitive</em> form.",

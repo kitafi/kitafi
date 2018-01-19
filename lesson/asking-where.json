@@ -3,6 +3,7 @@
     "unit": "asking-questions",
     "lesson": [
         {
+			"instruction": "",
             "english": "Where do you come from?",
             "swahili": "Wewe~you unatoka~kutoka_=_to_come_from wapi~where ?",
             "uuid": "f8d88d83-6df0-4e32-89f3-00e88d29afa7"

@@ -6,12 +6,14 @@
         {
             "english": "to say",
             "swahili": "kusema",
-            "uuid": "b1fb8f27-fc41-42a2-9576-5cc9ae20e900"
+            "uuid": "b1fb8f27-fc41-42a2-9576-5cc9ae20e900",
+            "instruction": ""
         },
         {
             "english": "I say",
             "swahili": "__=ninasema__",
-            "uuid": "780b6e48-48e1-473e-8107-9e7f6b247973"
+            "uuid": "780b6e48-48e1-473e-8107-9e7f6b247973",
+            "instruction": ""
         },
         {
             "type": "interactive",

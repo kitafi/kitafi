@@ -47,6 +47,10 @@ function render(templateName, fileName) {
 					let missingFields = false;
 
 					json.lesson.forEach(function(lesson) {
+						if (lesson.instruction == null) {
+							lesson.instruction = '';
+							missingFields = true;
+						}
 						if (lesson.english == null) {
 							lesson.english = '';
 							missingFields = true;

@@ -53,18 +53,21 @@
         {
             "english": "American",
             "swahili": "Mmarekani",
-            "uuid": "bb596686-7058-4b24-9de1-a60321e594e1"
+            "uuid": "bb596686-7058-4b24-9de1-a60321e594e1",
+            "instruction": ""
         },
         {
             "type": "question",
             "english": "Are you American?",
             "swahili": "Wewe ni __=Mmarekani__?",
-            "uuid": "f4a14a4f-a3a1-4c5a-8f5f-823c791e7d61"
+            "uuid": "f4a14a4f-a3a1-4c5a-8f5f-823c791e7d61",
+            "instruction": ""
         },
         {
             "english": "yes",
             "swahili": "ndiyo",
-            "uuid": "f4150f15-06a7-4834-a0d4-9f9298973f78"
+            "uuid": "f4150f15-06a7-4834-a0d4-9f9298973f78",
+            "instruction": ""
         },
         {
             "type": "question",
@@ -94,7 +97,8 @@
         {
             "english": "Tanzanian",
             "swahili": "Mtanzania",
-            "uuid": "9cf79ff5-4351-400e-8b10-c337a5c8dd67"
+            "uuid": "9cf79ff5-4351-400e-8b10-c337a5c8dd67",
+            "instruction": ""
         },
         {
             "type": "question",
@@ -119,12 +123,14 @@
         {
             "english": "How about you?",
             "swahili": "Na wewe je?",
-            "uuid": "7a2573b0-f537-4b48-9e48-e1e53634f782"
+            "uuid": "7a2573b0-f537-4b48-9e48-e1e53634f782",
+            "instruction": ""
         },
         {
             "english": "I am good, how about you?",
             "swahili": "__=Mimi ni nzuri, na wewe je__?",
-            "uuid": "3837e941-158b-4454-b101-76ea89f1296e"
+            "uuid": "3837e941-158b-4454-b101-76ea89f1296e",
+            "instruction": ""
         },
         {
             "type": "question",
