@@ -43,12 +43,12 @@
         },
         {
             "instruction": "Some words change in the plural, like <code>kitabu</code> (book). When referring to more than one book, use <code>vitabu</code>.",
-            "english": "They have the books.",
+            "english": "They have books.",
             "swahili": "__=Sisi tuna__ vitabu.",
             "uuid": "31a9448d-cf40-43b2-b783-a1158ee80fc8"
         },
         {
-            "instruction": "Certain words are pluralized differently based on their <strong>noun class</strong>, a concept that will be covered in the next unit. For now, you will have to practice to remember the plural of <code>daftari</code> is <code>madaftari</code>.",
+            "instruction": "Certain words are pluralized differently based on their <strong>noun class</strong>, a concept that will be covered in the next unit. For now, you will have rely on experience to remember the plural of <code>daftari</code> is <code>madaftari</code>.",
             "english": "You have notebooks.",
             "swahili": "Wewe __=una__ madaftari~notebooks .",
             "uuid": "c7ac534c-2b77-47b2-8827-cb880c682c80"

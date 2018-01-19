@@ -1,0 +1,50 @@
+{
+    "title": "Family",
+    "description": "Describe members of your family, and ask questions about other people's families.",
+    "image": "classroom.jpg",
+    "unit": "basic-conversation",
+    "lesson": [
+        {
+            "type": "interactive",
+            "instruction": "Questions in Swahili are determined by the tone of the sentence, similar to English.",
+            "english": "Do you have a __brother/sister__ ?",
+            "swahili": "Una~you_have __kaka/dada__ ?",
+            "uuid": "28c2cc09-509f-4b58-ba78-ffe19f1fc14d"
+        },
+        {
+            "instruction": "How would you respond in the affirmative?",
+            "english": "Yes, I have a brother.",
+            "swahili": "__=Ndiyo, nina kaka__.",
+            "uuid": "14f817e1-d0cb-4ab2-8734-9f2669a04289"
+        },
+        {
+            "instruction": "How would you respond in the negative?",
+            "english": "No, I do not have a sister.",
+            "swahili": "__=Hapana, sina dada__.",
+            "uuid": "471fd4ee-4973-401b-9340-c546ac82c514"
+        },
+        {
+            "instruction": "",
+            "english": "",
+            "swahili": "",
+            "uuid": "17cc9914-aa07-4625-b5bf-532de0092bf7"
+        }
+    ],
+
+	"pre": [
+		{
+			"swahili": "lakini"
+		}
+	],
+
+	"post": [
+		{
+			"swahili": "kaka",
+			"english": "brother"
+		},
+		{
+			"swahili": "dada",
+			"english": "sister"
+		}
+	]
+}

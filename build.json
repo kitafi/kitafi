@@ -12,5 +12,13 @@
 		"food-and-drink"
 	],
 
-	"lesson": []
+	"lesson": [
+        "greeting",
+        "introducing-yourself",
+        "pronouns",
+		"possessing-objects",
+		"family",
+        "singular-possessive",
+		"plural-possessive"
+    ]
 }
