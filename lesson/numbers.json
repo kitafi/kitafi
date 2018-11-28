@@ -27,7 +27,7 @@
             "uuid": "927daf10-41a4-4a7f-8e1e-8ab7ec7197c9"
         },
         {
-            "instruction": "When quantifying verbs in the first and second noun class (M-WA), the prefix only is attached to four (<code>nne</code>) and five(<code>tano</code>), not six (<code>sita</code>).",
+            "instruction": "When quantifying verbs in the first and second noun class (M-WA), the prefix is attached to four (<code>nne</code>) and five(<code>tano</code>), not six (<code>sita</code>).",
             "english": "four women, five men, six children",
             "swahili": "wanawake~women wanne, wanaume~men watano, watoto~children sita",
             "uuid": "b9f04b5b-bd16-492e-bb43-d8826ff31751"
@@ -45,7 +45,7 @@
             "uuid": "00aeafe3-dce2-472c-84d9-facf2abeb958"
         },
         {
-            "instruction": "Now lets construct.",
+            "instruction": "Now let's construct.",
             "english": "four five six",
             "swahili": "nne tano sita",
             "uuid": "5e019091-774f-4326-8cce-617a0c122691"
@@ -57,7 +57,7 @@
             "uuid": "3458b8d9-aec2-4cb0-ba91-613a9307d2f3"
         },
         {
-            "instruction": "Now lets construct.",
+            "instruction": "Now let's construct.",
             "english": "four five six",
             "swahili": "nne tano sita",
             "uuid": "c39b5dce-8efb-4e07-ac86-f1633c7606da"
